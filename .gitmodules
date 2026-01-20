@@ -1,0 +1,9 @@
+[submodule "res/hypr"]
+	path = res/hypr
+	url = https://github.com/boxboy523/hypr.git
+[submodule "res/rofi"]
+	path = res/rofi
+	url = git@github.com:boxboy523/rofi.git
+[submodule "res/waybar"]
+	path = res/waybar
+	url = git@github.com:boxboy523/waybar.git
