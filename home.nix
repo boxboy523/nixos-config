@@ -1,11 +1,15 @@
 { config, pkgs, ... }:
 
 {
+  imports = [
+      ./hypr.nix
+  ];
+  
   home = {
     username = "junyeong";
     homeDirectory = "/home/junyeong";
     stateVersion = "25.11";
-
+    
     packages = with pkgs; [
       htop
       fastfetch

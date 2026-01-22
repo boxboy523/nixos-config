@@ -1,1 +1,0 @@
-junyeong@archlinux.3718:1768895413

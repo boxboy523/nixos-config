@@ -20,6 +20,22 @@
         "type": "github"
       }
     },
+    "hypr-conf": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1768906977,
+        "narHash": "sha256-ZXXtl/pe72rUBAfs1vsFZTlYcoUX9n7D58jtiFugcd0=",
+        "owner": "boxboy523",
+        "repo": "hypr",
+        "rev": "0c408e90de1891b4b65b22be78179b0244926e68",
+        "type": "github"
+      },
+      "original": {
+        "owner": "boxboy523",
+        "repo": "hypr",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1768564909,
@@ -36,10 +52,45 @@
         "type": "github"
       }
     },
+    "rofi-conf": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1768906438,
+        "narHash": "sha256-lgxAOk5VBFC9snjMuXnoDTB0Spkf+ziB8U2BZCAzaME=",
+        "owner": "boxboy523",
+        "repo": "rofi",
+        "rev": "2877bef7f7bce1114d19f8fdb709bec97b611e30",
+        "type": "github"
+      },
+      "original": {
+        "owner": "boxboy523",
+        "repo": "rofi",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs"
+        "hypr-conf": "hypr-conf",
+        "nixpkgs": "nixpkgs",
+        "rofi-conf": "rofi-conf",
+        "waybar-conf": "waybar-conf"
+      }
+    },
+    "waybar-conf": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1768906324,
+        "narHash": "sha256-gaIoKQrBoANaEJ6R6jsaEB1zX+bEJP3M6R7rpE/U1sc=",
+        "owner": "boxboy523",
+        "repo": "waybar",
+        "rev": "f50c32e65cbf0d182741e5f76a15843d8206df6a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "boxboy523",
+        "repo": "waybar",
+        "type": "github"
       }
     }
   },
