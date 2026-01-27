@@ -123,8 +123,22 @@
     git
     wget
     curl
+    pkgs.mergerfs
   ];
 
+  fileSystems."/home/junyeong" = {
+    fsType = "mergerfs";
+    device = "/home/junyeong_local:/ssd_2";
+
+    options = [
+      "defaults"
+      "allow_other"
+      "minifreespace=10G"
+      "category.create=ff"
+      "fsname=mergerfs_home"
+    ];
+  };
+  
   services.openssh.enable = true;
 
   programs = {
