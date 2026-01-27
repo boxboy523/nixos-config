@@ -4,13 +4,14 @@
   home.packages = with pkgs; [
     waybar
     rofi
-    hyprpolkitagent
-  ];
+    hyprpolkitagent  ];
   
   xdg.configFile = {
     "hypr".source = pkgs.runCommand "hypr-vm-config" {} ''
     mkdir -p $out
     cp -r ${inputs.hypr-conf}/* $out/
+
+    chmod -R +w $out
 
     cp $out/hyprland-vm.conf $out/hyprland.conf
     '';

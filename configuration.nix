@@ -1,12 +1,13 @@
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, inputs, ... }:
 
 {
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./game.nix
     ];
 
-  # Use the systemd-boot EFI boot loader.
+  # Use the sXystemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
@@ -40,17 +41,37 @@
     };
   };
 
-  fonts.packages = with pkgs; [
-    nerd-fonts.terminess-ttf
-    noto-fonts
-    noto-fonts-cjk-sans
-    font-awesome
-  ];
+  fonts = {
+    packages = with pkgs; [
+      nerd-fonts.terminess-ttf
+      noto-fonts
+      noto-fonts-cjk-sans
+      font-awesome
+      (pkgs.runCommand "monoplex-font" { } ''
+        mkdir -p $out/share/fonts/truetype
+        find ${inputs.monoplex} -name "*.ttf" -exec cp {} $out/share/fonts/truetype/ \;
+      '')
+      (pkgs.runCommand "hahmlet-font" { } ''
+        mkdir -p $out/share/fonts/opentype
+        find ${inputs.hahmlet} -name "*.otf" -exec cp {} $out/share/fonts/opentype/ \;
+        find ${inputs.hahmlet} -name "*.ttf" -exec cp {} $out/share/fonts/truetype/ \; || true
+      '')
+      (pkgs.runCommand "nanum-square-neo" { } ''
+        mkdir -p $out/share/fonts/opentype
+        find ${inputs.nanum-neo} -name "*.otf" -exec cp {} $out/share/fonts/opentype/ \;
+      '')
+    ];
+
+    fontconfig = {
+      enable = true;
+      localConf = builtins.readFile ./res/fonts.conf;
+    };
+  };
 
   console = {
     enable = true;
-    font = "Lat2-Terminus16";
-    packages = with pkgs; [ nerd-fonts.terminess-ttf ];
+    font = "ter-v32n";
+    packages = with pkgs; [ terminus_font ];
     keyMap = "us";
   };
 
@@ -71,6 +92,8 @@
     shell = pkgs.zsh;
   };
 
+  nix.settings.trusted-users = [ "root" "junyeong" ];
+  
   environment.systemPackages = with pkgs; [
     vim
     git
@@ -88,7 +111,13 @@
     zsh.enable = true;
     hyprland.enable = true;
   };
-  
+
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 7d";
+  };
+  nix.settings.auto-optimise-store = true;
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   system.stateVersion = "25.11"; 
 }

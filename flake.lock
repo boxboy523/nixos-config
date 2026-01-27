@@ -1,5 +1,33 @@
 {
   "nodes": {
+    "emacs-conf": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1769325856,
+        "narHash": "sha256-Bw7k57XIAEVysZrIdtwk3hVub8Sm7beOviKvymXjOW4=",
+        "owner": "boxboy523",
+        "repo": "emacs-config",
+        "rev": "28ecf8a8e92b72bc437997965a35fba49d1fe9e0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "boxboy523",
+        "repo": "emacs-config",
+        "type": "github"
+      }
+    },
+    "hahmlet": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-TIyvYqTgmLnBvHLRG2Iz5Ja6I81cK8z9VQ088d/pTy4=",
+        "type": "file",
+        "url": "https://github.com/hyper-type/hahmlet"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://github.com/hyper-type/hahmlet"
+      }
+    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -7,11 +35,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1768893778,
-        "narHash": "sha256-iSHEptqSun9Ryl1NgoKguJAjRHAFO3k9bQ9bB+UpCNA=",
+        "lastModified": 1769289524,
+        "narHash": "sha256-6Cwtvzrw79cOk1lCzN2aKSVrpgSOSQoYhyMmhXXZjTA=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "895eddbee851630201154725c22e94ecd8232dbf",
+        "rev": "2539eba97a6df237d75617c25cd2dbef92df3d5b",
         "type": "github"
       },
       "original": {
@@ -23,11 +51,11 @@
     "hypr-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1768906977,
-        "narHash": "sha256-ZXXtl/pe72rUBAfs1vsFZTlYcoUX9n7D58jtiFugcd0=",
+        "lastModified": 1769324953,
+        "narHash": "sha256-/Hnp+lQyqvDDVhX5bebZxr0fc5JYP/704BGCTdH9uvs=",
         "owner": "boxboy523",
         "repo": "hypr",
-        "rev": "0c408e90de1891b4b65b22be78179b0244926e68",
+        "rev": "7b6c27483e17e9f6450e61026be670ef646dbee9",
         "type": "github"
       },
       "original": {
@@ -36,13 +64,42 @@
         "type": "github"
       }
     },
+    "monoplex": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635773682,
+        "narHash": "sha256-gGmFrXrMUosTTFKLq20BETa3yUEyhFKA2h7UC8pFmWE=",
+        "type": "tarball",
+        "url": "https://github.com/y-kim/monoplex/releases/download/v0.0.2/MonoplexKR-v0.0.2.zip"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/y-kim/monoplex/releases/download/v0.0.2/MonoplexKR-v0.0.2.zip"
+      }
+    },
+    "nanum-neo": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1671610072,
+        "narHash": "sha256-Hvs7C/lGCQuNlcF+OuaMitA8LcmYxDzrCsanaGgtXiA=",
+        "owner": "moonspam",
+        "repo": "NanumSquareNeo",
+        "rev": "2fcec32b56150befeaddc0d751845bf8972be7f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "moonspam",
+        "repo": "NanumSquareNeo",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1768564909,
-        "narHash": "sha256-Kell/SpJYVkHWMvnhqJz/8DqQg2b6PguxVWOuadbHCc=",
+        "lastModified": 1769170682,
+        "narHash": "sha256-oMmN1lVQU0F0W2k6OI3bgdzp2YOHWYUAw79qzDSjenU=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "e4bae1bd10c9c57b2cf517953ab70060a828ee6f",
+        "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
         "type": "github"
       },
       "original": {
@@ -70,8 +127,12 @@
     },
     "root": {
       "inputs": {
+        "emacs-conf": "emacs-conf",
+        "hahmlet": "hahmlet",
         "home-manager": "home-manager",
         "hypr-conf": "hypr-conf",
+        "monoplex": "monoplex",
+        "nanum-neo": "nanum-neo",
         "nixpkgs": "nixpkgs",
         "rofi-conf": "rofi-conf",
         "waybar-conf": "waybar-conf"

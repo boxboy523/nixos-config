@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, inputs, ... }:
 
 {
   imports = [
@@ -11,17 +11,29 @@
     stateVersion = "25.11";
     
     packages = with pkgs; [
-      htop
       fastfetch
       ripgrep
       fd
       eza
       pokeget-rs
+      firefoxpwa
+      jq
+      expect
+      btop
     ];
 
     sessionVariables = {
       BROWSER = "firefox";
       TERMINAL = "kitty";
+      XDG_CONFIG_HOME = "${config.home.homeDirectory}/.config";
+      XDG_DATA_HOME = "${config.home.homeDirectory}/.local/share";
+      XDG_CACHE_HOME = "${config.home.homeDirectory}/.cache";
+      EDITOR = lib.mkForce "emacs -nw";
+      VISUAL = lib.mkForce "emacs -nw";
+      PWA_GEMINI = "EMPTY";
+      PWA_YOUTUBE = "01KFSWFEG355AWAD9ATHCH4WZ2";
+      PWA_NAMUWIKI = "EMPTY";
+      EMACSDIR = "$HOME/.config/emacs";
     };
 
     sessionPath = [
@@ -62,11 +74,17 @@
         plugins = [ "git" "sudo" "docker" ];
       };
 
-      initContent = builtins.readFile ./res/zshrc;
+      initContent = builtins.readFile ./res/.zshrc;
     };
 
-    kitty.enable = true;
-    
+    kitty = {
+      enable = true;
+
+      font = {
+        name = "monospace";
+        size = 14;
+      };
+    };
   };
 
   home.file.".config/kime/config.yaml".source = ./res/kime_config.yaml;
@@ -75,9 +93,19 @@
       enable = true;
       package = pkgs.emacs;
   };
-    
+
+  xdg.configFile."emacs" = {
+    source = inputs.emacs-conf;
+    recursive = true;
+  };
+  
   services.emacs = {
     enable = true;
-    defaultEditor = true;
+    defaultEditor = false;
+  };
+  
+  programs.firefox = {
+    enable = true;
+    nativeMessagingHosts = [ pkgs.firefoxpwa ];
   };
 }

@@ -22,6 +22,26 @@
       url = "github:boxboy523/rofi";
       flake = false;
     };
+
+    emacs-conf = {
+      url = "github:boxboy523/emacs-config";
+      flake = false;
+    };
+
+    monoplex = {
+      url = "https://github.com/y-kim/monoplex/releases/download/v0.0.2/MonoplexKR-v0.0.2.zip";
+      flake = false;
+    };
+
+    nanum-neo = {
+      url = "github:moonspam/NanumSquareNeo";
+      flake = false;
+    };
+
+    hahmlet = {
+      url = "https://github.com/hyper-type/hahmlet";
+      flake = false;
+    };
   };
 
   outputs = { self, nixpkgs, home-manager, ... }@inputs: {
