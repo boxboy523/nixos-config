@@ -136,6 +136,8 @@
       "minifreespace=10G"
       "category.create=ff"
       "fsname=mergerfs_home"
+      "x-systemd.requires=/home"
+      "x-systemd.requires=/ssd_2"
     ];
   };
   
