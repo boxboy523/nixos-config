@@ -8,8 +8,32 @@
     ];
 
   # Use the sXystemd-boot EFI boot loader.
-  boot.loader.systemd-boot.enable = true;
+  boot.loader.grub = {
+    enable = true;
+    efiSupport = true;
+    device = "nodev";
+    useOSProber = true;
+    gfxmodeEfi = "3840x2160";
+
+    extraEntries = ''
+      menuentry "Windows 11" {
+        insmod part_gpt
+        insmod fat
+        insmod search_fs_uuid
+        insmod chain
+        
+        # 윈도우 부팅 파일(bootmgfw.efi)을 찾아서 실행해라
+        search --file --no-floppy --set=root /EFI/Microsoft/Boot/bootmgfw.efi
+        chainloader /EFI/Microsoft/Boot/bootmgfw.efi
+      }
+    '';
+  };
   boot.loader.efi.canTouchEfiVariables = true;
+
+  boot.kernelParams = [
+    "video=DP-4:3840x2160@144"
+    "video=HDMI-A-2:1920x1080@60"
+  ];
 
   networking.hostName = "nixos-main"; # Define your hostname.
 
@@ -108,6 +132,15 @@
     hyprland.enable = true;
   };
 
+  services.udev.extraRules = ''
+  SUBSYSTEM=="drm", KERNEL=="card[0-9]*", KERNELS=="0000:01:00.0", SYMLINK+="card-nvidia"
+  SUBSYSTEM=="drm", KERNEL=="card[0-9]*", KERNELS=="0000:11:00.0", SYMLINK+="card-igpu"
+  '';
+
+  environment.sessionVariables = {
+    AQ_DRM_DEVICES = "/dev/card-igpu:/dev/card-nvidia";
+  };
+    
   nix.gc = {
     automatic = true;
     dates = "weekly";

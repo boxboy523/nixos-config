@@ -20,6 +20,7 @@
       jq
       expect
       btop
+      cmake
     ];
 
     sessionVariables = {
@@ -30,10 +31,12 @@
       XDG_CACHE_HOME = "${config.home.homeDirectory}/.cache";
       EDITOR = lib.mkForce "emacs -nw";
       VISUAL = lib.mkForce "emacs -nw";
-      PWA_GEMINI = "EMPTY";
-      PWA_YOUTUBE = "01KFSWFEG355AWAD9ATHCH4WZ2";
-      PWA_NAMUWIKI = "EMPTY";
+      PWA_GEMINI = "01KFZJRF039NWZT10FBYKE6J1N";
+      PWA_YOUTUBE = "01KFZJS6JPCF3HQ5V1MBM0Y15N";
+      PWA_NAMUWIKI = "01KFZJTTYG3XVJBAF5XV63Z0BS";
       EMACSDIR = "$HOME/.config/emacs";
+      XCURSOR_THEME = "Adwaita";
+      XCURSOR_SIZE = 24;
     };
 
     sessionPath = [
@@ -41,6 +44,14 @@
       "$HOME/.local/bin"
       "$HOME/.cargo/bin"
     ];
+
+    pointerCursor = {
+      gtk.enable = true;
+      x11.enable = true;
+      name = "Adwaita";
+      package = pkgs.adwaita-icon-theme;
+      size = 24;
+    };
   };
   programs = {
     git = {

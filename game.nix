@@ -8,6 +8,15 @@
     enable32Bit = true;
   };
 
+  services.xserver.videoDrivers = [ "nvidia" ];
+
+  hardware.nvidia = {
+    modesetting.enable = true;
+    open = true;
+    nvidiaSettings = true;
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
+  };
+
   programs.steam = {
     enable = true;
     gamescopeSession.enable = true;
@@ -19,5 +28,8 @@
     lutris
     protonup-qt
     mangohud
+    discord
+    pavucontrol
+    xorg.xrandr
   ];
 }

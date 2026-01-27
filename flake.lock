@@ -3,23 +3,20 @@
     "emacs-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1769325856,
-        "narHash": "sha256-Bw7k57XIAEVysZrIdtwk3hVub8Sm7beOviKvymXjOW4=",
-        "owner": "boxboy523",
-        "repo": "emacs-config",
-        "rev": "28ecf8a8e92b72bc437997965a35fba49d1fe9e0",
-        "type": "github"
+        "lastModified": 1769520335,
+        "narHash": "sha256-vckkCx+20xqYik+J9NtuBm7hD3xpRC6K6pkCgEoKWYc=",
+        "path": "/home/junyeong/config/emacs-config",
+        "type": "path"
       },
       "original": {
-        "owner": "boxboy523",
-        "repo": "emacs-config",
-        "type": "github"
+        "path": "/home/junyeong/config/emacs-config",
+        "type": "path"
       }
     },
     "hahmlet": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-TIyvYqTgmLnBvHLRG2Iz5Ja6I81cK8z9VQ088d/pTy4=",
+        "narHash": "sha256-6Wj9muFhiy638575Gypr0gF6koO+4D6mf52EN+l4y7E=",
         "type": "file",
         "url": "https://github.com/hyper-type/hahmlet"
       },
@@ -51,17 +48,14 @@
     "hypr-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1769324953,
-        "narHash": "sha256-/Hnp+lQyqvDDVhX5bebZxr0fc5JYP/704BGCTdH9uvs=",
-        "owner": "boxboy523",
-        "repo": "hypr",
-        "rev": "7b6c27483e17e9f6450e61026be670ef646dbee9",
-        "type": "github"
+        "lastModified": 1769521076,
+        "narHash": "sha256-2/xReIDjrAE0fsDFjpDTMsJ4wTYc8jbD4QzxDrFDlCc=",
+        "path": "/home/junyeong/config/hypr",
+        "type": "path"
       },
       "original": {
-        "owner": "boxboy523",
-        "repo": "hypr",
-        "type": "github"
+        "path": "/home/junyeong/config/hypr",
+        "type": "path"
       }
     },
     "monoplex": {
