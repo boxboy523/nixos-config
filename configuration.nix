@@ -11,7 +11,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "nixos-vm"; # Define your hostname.
+  networking.hostName = "nixos-main"; # Define your hostname.
 
   # Configure network connections interactively with nmcli or nmtui.
   networking.networkmanager.enable = true;
@@ -101,10 +101,6 @@
     curl
   ];
 
-  environment.sessionVariables = {
-    WLR_NO_HARDWAR_CURSORS = "1";
-  };
-  
   services.openssh.enable = true;
 
   programs = {

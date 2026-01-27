@@ -12,8 +12,6 @@
     cp -r ${inputs.hypr-conf}/* $out/
 
     chmod -R +w $out
-
-    cp $out/hyprland-vm.conf $out/hyprland.conf
     '';
     "waybar".source = inputs.waybar-conf;
     "rofi".source = inputs.rofi-conf;
