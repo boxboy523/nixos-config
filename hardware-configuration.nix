@@ -31,7 +31,7 @@
       options = [ "subvol=@nix" "compress=zstd" "noatime" ]; 
     };
 
-  fileSystems."/mnt/ssd1/" =
+  fileSystems."/mnt/ssd1" =
     { device = "/dev/disk/by-uuid/dda5d74c-5a5d-4281-b24f-700e58985e0e";
       fsType = "btrfs";
       options = [ "subvol=@storage" "compress=zstd" "noatime" ]; 

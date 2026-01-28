@@ -114,7 +114,7 @@
     cmake
     gnumake
     gcc
-    lintool
+    libtool
     pkg-config
     libvterm
   ];
