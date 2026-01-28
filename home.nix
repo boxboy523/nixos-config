@@ -20,7 +20,7 @@
       jq
       expect
       btop
-      cmake
+      qbittorrent
     ];
 
     sessionVariables = {
@@ -102,7 +102,7 @@
 
   programs.emacs = {
       enable = true;
-      package = pkgs.emacs;
+      package = pkgs.emacs-pgtk;
   };
 
   xdg.configFile."emacs" = {

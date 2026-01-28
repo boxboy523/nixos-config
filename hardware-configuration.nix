@@ -31,6 +31,11 @@
       options = [ "subvol=@nix" "compress=zstd" "noatime" ]; 
     };
 
+  fileSystems."/mnt/ssd1/" =
+    { device = "/dev/disk/by-uuid/dda5d74c-5a5d-4281-b24f-700e58985e0e";
+      fsType = "btrfs";
+      options = [ "subvol=@storage" "compress=zstd" "noatime" ]; 
+    };
 
 fileSystems."/var/log" =
     { device = "/dev/disk/by-uuid/dda5d74c-5a5d-4281-b24f-700e58985e0e";
@@ -44,7 +49,7 @@ fileSystems."/var/log" =
       options = [ "fmask=0022" "dmask=0022" ];
     };
 
-  fileSystems."/ssd_2" =
+  fileSystems."/mnt/ssd2" =
     { device = "/dev/disk/by-uuid/b11ae039-3d9b-41d4-85a2-7382a447e4d1";
       fsType = "btrfs";
       options = [ "compress=zstd" "nofail" "noatime" ];

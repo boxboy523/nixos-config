@@ -14,19 +14,6 @@
     device = "nodev";
     useOSProber = true;
     gfxmodeEfi = "3840x2160";
-
-    extraEntries = ''
-      menuentry "Windows 11" {
-        insmod part_gpt
-        insmod fat
-        insmod search_fs_uuid
-        insmod chain
-        
-        # 윈도우 부팅 파일(bootmgfw.efi)을 찾아서 실행해라
-        search --file --no-floppy --set=root /EFI/Microsoft/Boot/bootmgfw.efi
-        chainloader /EFI/Microsoft/Boot/bootmgfw.efi
-      }
-    '';
   };
   boot.loader.efi.canTouchEfiVariables = true;
 
@@ -124,20 +111,26 @@
     wget
     curl
     pkgs.mergerfs
+    cmake
+    gnumake
+    gcc
+    lintool
+    pkg-config
+    libvterm
   ];
 
+  programs.fuse.userAllowOther = true;
+  
   fileSystems."/home/junyeong" = {
-    fsType = "mergerfs";
-    device = "/home/junyeong_local:/ssd_2";
-
+    fsType = "fuse.mergerfs";
+    device = "/mnt/ssd1:/mnt/ssd2";
     options = [
-      "defaults"
-      "allow_other"
-      "minifreespace=10G"
-      "category.create=ff"
-      "fsname=mergerfs_home"
-      "x-systemd.requires=/home"
-      "x-systemd.requires=/ssd_2"
+      "cache.files=off"
+      "func.getattr=newest"
+      "dropcacheonclose=false"
+      "minfreespace=10G"
+      "category.create=pfrd"
+      "fsname=storage_merged"
     ];
   };
   

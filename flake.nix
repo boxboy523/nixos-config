@@ -9,8 +9,8 @@
     };
 
     hypr-conf = {
-      #url = "github:boxboy523/hypr";
-      url = "path:/home/junyeong/config/hypr";
+      url = "github:boxboy523/hypr";
+      #url = "path:/home/junyeong/config/hypr";
       flake = false;
     };
 
@@ -25,7 +25,8 @@
     };
 
     emacs-conf = {
-      url = "path:/home/junyeong/config/emacs-config";
+      url = "github:boxboy523/emacs-config";
+      #url = "path:/home/junyeong/config/emacs-config";
       flake = false;
     };
 
