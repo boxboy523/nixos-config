@@ -25,8 +25,8 @@
     };
 
     emacs-conf = {
-      url = "github:boxboy523/emacs-config";
-      #url = "path:/home/junyeong/config/emacs-config";
+      #url = "github:boxboy523/emacs-config";
+      url = "path:/storage/conf/emacs-config";
       flake = false;
     };
 
@@ -53,6 +53,9 @@
         specialArgs = { inherit inputs; };
         modules = [
           ./configuration.nix
+          {
+            nixpkgs.config.allowUnfree = true;
+          }
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;

@@ -14,48 +14,56 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/dda5d74c-5a5d-4281-b24f-700e58985e0e";
+    { device = "/dev/disk/by-uuid/f45088f3-942f-4a7e-91eb-e5af7d7dbf14";
       fsType = "btrfs";
-      options = [ "subvol=@" "compress=zstd" "noatime" ]; 
+      options = [ "subvol=@" "noatime" "compress=zstd" ];
     };
 
   fileSystems."/home" =
-    { device = "/dev/disk/by-uuid/dda5d74c-5a5d-4281-b24f-700e58985e0e";
+    { device = "/dev/disk/by-uuid/f45088f3-942f-4a7e-91eb-e5af7d7dbf14";
       fsType = "btrfs";
-      options = [ "subvol=@home" "compress=zstd" "noatime" ]; 
+      options = [ "subvol=@home" "noatime" "compress=zstd" ];
     };
 
   fileSystems."/nix" =
-    { device = "/dev/disk/by-uuid/dda5d74c-5a5d-4281-b24f-700e58985e0e";
+    { device = "/dev/disk/by-uuid/f45088f3-942f-4a7e-91eb-e5af7d7dbf14";
       fsType = "btrfs";
-      options = [ "subvol=@nix" "compress=zstd" "noatime" ]; 
+      options = [ "subvol=@nix" "noatime" "compress=zstd" ];
+    };
+
+  fileSystems."/var/log" =
+    { device = "/dev/disk/by-uuid/f45088f3-942f-4a7e-91eb-e5af7d7dbf14";
+      fsType = "btrfs";
+      options = [ "subvol=@log" "noatime" "compress=zstd" ];
     };
 
   fileSystems."/mnt/ssd1" =
-    { device = "/dev/disk/by-uuid/dda5d74c-5a5d-4281-b24f-700e58985e0e";
+    { device = "/dev/disk/by-uuid/f45088f3-942f-4a7e-91eb-e5af7d7dbf14";
       fsType = "btrfs";
-      options = [ "subvol=@storage" "compress=zstd" "noatime" ]; 
+      options = [ "subvol=@storage" "noatime" "compress=zstd" ];
     };
 
-fileSystems."/var/log" =
-    { device = "/dev/disk/by-uuid/dda5d74c-5a5d-4281-b24f-700e58985e0e";
+  fileSystems."/mnt/ssd2" =
+    { device = "/dev/disk/by-uuid/415b1c08-868f-45bd-b853-aad84665f199";
       fsType = "btrfs";
-      options = [ "subvol=@log" "compress=zstd" "noatime" ]; 
+      options = [ "noatime" "compress=zstd" ];
+    };
+
+  fileSystems."/mnt/root" =
+    { device = "/dev/disk/by-uuid/f45088f3-942f-4a7e-91eb-e5af7d7dbf14";
+      fsType = "btrfs";
+      options = [ "noatime" "compress=zstd" ];
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/554F-2F71";
+    { device = "/dev/disk/by-uuid/6A82-9442";
       fsType = "vfat";
       options = [ "fmask=0022" "dmask=0022" ];
     };
 
-  fileSystems."/mnt/ssd2" =
-    { device = "/dev/disk/by-uuid/b11ae039-3d9b-41d4-85a2-7382a447e4d1";
-      fsType = "btrfs";
-      options = [ "compress=zstd" "nofail" "noatime" ];
-    };
-
-  swapDevices = [ ];
+  swapDevices =
+    [ { device = "/dev/disk/by-uuid/0c877173-07eb-47ff-9037-4b36f8a630fb"; }
+    ];
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
   hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;

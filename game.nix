@@ -13,7 +13,18 @@
   hardware.nvidia = {
     modesetting.enable = true;
     open = true;
+    powerManagement.enable = false;
     nvidiaSettings = true;
+
+    prime = {
+      offload = {
+        enable = true;
+        enableOffloadCmd = true;
+      };
+      amdgpuBusId = "PCI:11:00:0";
+      nvidiaBusId = "PCI:01:00:0";
+    };
+    
     package = config.boot.kernelPackages.nvidiaPackages.stable;
   };
 

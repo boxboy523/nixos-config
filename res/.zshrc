@@ -16,3 +16,7 @@ else
         hyprctl dispatch focuswindow "address:$TERM_ADDR"
     }
 fi
+
+nin() {
+    nix profile add "nixpkgs#$1"
+}

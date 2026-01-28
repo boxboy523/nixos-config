@@ -104,7 +104,6 @@
   };
 
   nix.settings.trusted-users = [ "root" "junyeong" ];
-  
   environment.systemPackages = with pkgs; [
     vim
     git
@@ -121,7 +120,7 @@
 
   programs.fuse.userAllowOther = true;
   
-  fileSystems."/home/junyeong" = {
+  fileSystems."/storage" = {
     fsType = "fuse.mergerfs";
     device = "/mnt/ssd1:/mnt/ssd2";
     options = [
@@ -131,10 +130,14 @@
       "minfreespace=10G"
       "category.create=pfrd"
       "fsname=storage_merged"
+      "x-systemd.automount"
     ];
   };
   
   services.openssh.enable = true;
+  systemd.tmpfiles.rules = [
+    "d /storage 0755 junyeong users -"
+  ];
 
   programs = {
     zsh.enable = true;
