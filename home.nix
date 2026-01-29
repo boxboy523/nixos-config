@@ -23,6 +23,7 @@
       btop
       qbittorrent
       nix-index
+      wl-clipboard
     ];
 
     sessionVariables = {

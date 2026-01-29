@@ -42,5 +42,7 @@
     discord
     pavucontrol
     xorg.xrandr
+    wineWow64Packages.staging
+    winetricks
   ];
 }

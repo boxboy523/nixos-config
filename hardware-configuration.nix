@@ -46,7 +46,7 @@
   fileSystems."/mnt/ssd2" =
     { device = "/dev/disk/by-uuid/415b1c08-868f-45bd-b853-aad84665f199";
       fsType = "btrfs";
-      options = [ "noatime" "compress=zstd" ];
+      options = [ "subvol=@"  "noatime" "compress=zstd" ];
     };
 
   fileSystems."/mnt/root" =
