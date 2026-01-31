@@ -3,8 +3,8 @@
     "emacs-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1769589671,
-        "narHash": "sha256-Aha04XNQAo9B/2peMe8gARC85KZUe68U0QcQ6jltrFE=",
+        "lastModified": 1769797150,
+        "narHash": "sha256-Fp/SQu1Dgj5eYSqOIX5b90sOEbxKaiXU0pbq6/3StDQ=",
         "path": "/storage/conf/emacs-config",
         "type": "path"
       },

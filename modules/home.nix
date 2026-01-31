@@ -23,7 +23,7 @@
       btop
       qbittorrent
       nix-index
-      wl-clipboard
+      python3
     ];
 
     sessionVariables = {
@@ -144,6 +144,11 @@
     nativeMessagingHosts = [ pkgs.firefoxpwa ];
   };
 
+  programs.direnv = {
+    enable = true;
+    nix-direnv.enable = true;
+  };
+  
   xdg.userDirs = {
     enable = true;
     createDirectories = true;

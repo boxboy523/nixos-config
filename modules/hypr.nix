@@ -4,7 +4,11 @@
   home.packages = with pkgs; [
     waybar
     rofi
-    hyprpolkitagent  ];
+    hyprpolkitagent
+    wl-clipboard
+    grim
+    slurp
+  ];
   
   xdg.configFile = {
     "hypr".source = pkgs.runCommand "hypr-vm-config" {} ''
