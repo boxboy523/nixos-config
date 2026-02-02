@@ -96,7 +96,7 @@
         plugins = [ "git" "sudo" "docker" ];
       };
 
-      initContent = builtins.readFile ../../res/.zshrc;
+      initExtra = builtins.readFile ../../res/.zshrc;
     };
 
     kitty = {
@@ -145,12 +145,6 @@
     desktop   = "${config.home.homeDirectory}/desktop";
     publicShare = "${config.home.homeDirectory}/public";
     templates = "${config.home.homeDirectory}/templates";
-  };
-
-  xdg.portal = {
-    enable = true;
-    extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
-    config.common.default = "gtk";
   };
   
   home.file = {
