@@ -1,0 +1,868 @@
+=== 시작 ===
+[INFO] 메인 메뉴 -> 'w' 입력
+buffer =  ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 20240819 dcss-git L5 FoFi, D:3 80x 24 50s 0 b) blase dcss-git L5 TeAE, D:3 80x 24 0 c) caiman dcss-git L3 FoHs, D:2 80x 24 0 d) circleofdust dcss-git L15 ReEE, Swamp:1 80x 24 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 9s 0 f) drogi3814 dcss-git L8 KoCj, D:6 80x 24 0 g) gusrb771 dcss-git L15 DgHu, Orc:2 80x 24 5s 0 h) himorime1 dcss-git L6 GrEE, D:4 80x 24 0 i) lkydig dcss-git L22 MiFi, Vaults:2 80x 24 0 j) namsansan dcss-git L3 DrWn, D:2 80x 24 59s 0 k) nimuck dcss-git L10 FoHu, D:8 80x 24 0 l) okmg321 dcss-git L27 DjCj, Pan 80x 24 0 m) satisfy dcss-git L15 BaDe, D:15 80x 24 0 n) sekai dcss-git L27 FoFw, Zot:4 80x 24 0 o) tcltk dcss-0.34 L4 MiBe, D:3 80x 24 4m 23s 0 (1-15 of 18) Watch which game? ('?' for help) =>
+match: a) 20240819 dcss-git L5 FoFi, D:3 80x 24 50s 0
+ username: 20240819
+ idle_part: 50s
+
+예비 대기 유저: '20240819'
+match: b) blase dcss-git L5 TeAE, D:3 80x 24 0
+ username: blase
+ idle_part: 
+
+Target found: 'blase'
+
+🥇 유저 진입 (blase)
+buffer =  -1 ------  --more--    Gear: 10/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  h - a +1 orcbow of draining (weapon)  a - a +1 longbow of flaming d - a +2 dagger of electrocution Missiles (go to first with  (  )  b - 27 poisoned darts Armour (go to first with  [  )  e - a +0 robe of willpower (worn)  Magical Staves (go to first with  |  )  i - the necromancy staff of the Living Dead {rC+ rN+ Will+ Dex+3 Necro}  Jewellery (go to first with  "=  )  f - a ring of poison resistance (worn) g - a ring of protection from cold (worn)  Talismans (go to first with  %  )  c - a quill talisman j - a rimehorn talisman[?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 20240819 dcss-git L8 FoFi, D:4 80x 24 7s 0 b) blase dcss-git 80x 24 0 c) caiman dcss-git L7 FoHs, D:4 80x 24 1 d) circleofdust dcss-git L15 ReEE, Swamp:2 80x 24 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 17s 0 f) drogi3814 dcss-git L1 DsMo, D:1 80x 24 0 g) gusrb771 dcss-git L15 DgHu, Orc:2 80x 24 1m 7s 0 h) himorime1 dcss-git 80x 24 0 i) lkydig dcss-git L23 MiFi, Vaults:4 80x 24 0 j) Lupeow dcss-git L2 DsMo, D:1 80x 24 0 k) namsansan dcss-git L3 DrWn, D:2 80x 24 5m 37s 0 l) nimuck dcss-git L11 FoHu, D:8 80x 24 44s 0 m) okmg321 dcss-git L27 DjCj, Pan 80x 24 12s 0 n) satisfy dcss-git L17 BaDe, Elf:2 80x 24 0 o) Tanach dcss-git L4 GrSh, D:3 80x 24 0 (1-15 of 18) Watch which game? ('?' for help) =>
+match: a) 20240819 dcss-git L8 FoFi, D:4 80x 24 7s 0
+ username: 20240819
+ idle_part: 7s
+
+예비 대기 유저: '20240819'
+match: c) caiman dcss-git L7 FoHs, D:4 80x 24 1
+ username: caiman
+ idle_part: 
+
+Target found: 'caiman'
+
+🥇 유저 진입 (caiman)
+buffer =  -5 ---------  --more--    Gear: 24/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  w - a +0 orcbow (weapon)  a - a +1 sling j - a +2 vampiric short sword n - a +1 devious dagger  r - a +0 shortbow Missiles (go to first with  (  )  q - 6 curare-tipped darts u - 9 poisoned darts Armour (go to first with  [  )  h - a +2 cloak (worn) i - the +0 leather armour "Ekenog" (worn) {+Inv SInv} o - a +0 pair of gloves of parrying (worn) s - a +0 pair of gloves (worn) t - a +0 buckler (worn)  b - +0 steam dragon scales g - a +1 ring mail of positive energy p - a +0 helmet of sniping v - an orb of pyromania [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 20240819 dcss-git L7 FoFi, D:4 80x 24 43s 0 b) blase dcss-git L11 TeAE, Lair:2 80x 24 0 c) blister dcss-git L16 PoEn, D:15 80x 24 1 d) caiman dcss-git 80x 24 0 e) circleofdust dcss-git L16 ReEE, Swamp:3 80x 24 0 f) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 8s 0 g) drogi3814 dcss-git L1 DjIE, D:1 80x 24 0 h) gusrb771 dcss-git L16 DgHu, Shoals:3 80x 24 0 i) hjh4653 dcss-git L7 MiFi, D:5 80x 24 0 j) hong2 dcss-0.13 L2 TrCK, D:2 80x 24 50s 0 k) hslovejs dcss-git L8 CoFi, D:6 80x 24 0 l) lkydig dcss-git L26 MiFi, Zot:1 80x 24 0 m) Lupeow dcss-git L1 DsMo, D:1 80x 24 0 n) namsansan dcss-git L5 DrWn, Sewer 80x 24 0 o) nimuck dcss-git L11 FoHu, Bazaar 80x 24 8s 0 (1-15 of 22) Watch which game? ('?' for help) =>
+match: a) 20240819 dcss-git L7 FoFi, D:4 80x 24 43s 0
+ username: 20240819
+ idle_part: 43s
+
+예비 대기 유저: '20240819'
+match: b) blase dcss-git L11 TeAE, Lair:2 80x 24 0
+ username: blase
+ idle_part: 
+
+SKIP: 'blase' (최근 본 유저)
+match: c) blister dcss-git L16 PoEn, D:15 80x 24 1
+ username: blister
+ idle_part: 
+
+Target found: 'blister'
+
+🥇 유저 진입 (blister)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 20240819 dcss-git L9 FoFi, D:6 80x 24 1m 22s 0 b) blase dcss-git L5 TeAE, D:3 80x 24 0 c) blister dcss-git L17 PoEn, Spider:2 80x 24 30s 0 d) britz1234 dcss-git L4 TeBe, D:3 80x 24 1 e) circleofdust dcss-git L16 ReEE, Swamp:4 80x 24 0 f) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 22s 0 g) drogi3814 dcss-git L2 CoBe, D:1 80x 24 0 h) hjh4653 dcss-git L11 MiFi, Lair:1 80x 24 0 i) hong2 dcss-0.13 L8 TrCK, D:7 80x 24 20s 0 j) Lupeow dcss-git L3 DsMo, D:2 80x 24 14s 0 k) namsansan dcss-git L7 DrWn, D:4 80x 24 0 l) nimuck dcss-git L12 FoHu, Bazaar 80x 24 0 m) okmg321 dcss-git L27 DjCj, Geh:1 80x 24 0 n) opking dcss-git L8 OpBe, D:6 80x 24 0 o) OTabTabTab dcss-git L27 DrCj, Zig:26 80x 24 0 (1-15 of 18) Watch which game? ('?' for help) =>
+match: a) 20240819 dcss-git L9 FoFi, D:6 80x 24 1m 22s 0
+ username: 20240819
+ idle_part: 1m 22s
+
+SKIP: '20240819' (1분 이상 잠수)
+match: b) blase dcss-git L5 TeAE, D:3 80x 24 0
+ username: blase
+ idle_part: 
+
+SKIP: 'blase' (최근 본 유저)
+match: c) blister dcss-git L17 PoEn, Spider:2 80x 24 30s 0
+ username: blister
+ idle_part: 30s
+
+SKIP: 'blister' (최근 본 유저)
+match: d) britz1234 dcss-git L4 TeBe, D:3 80x 24 1
+ username: britz1234
+ idle_part: 
+
+Target found: 'britz1234'
+
+🥇 유저 진입 (britz1234)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 20240819 dcss-git L6 FoFi, D:3 80x 24 2 b) blase dcss-git L9 TeAE, D:8 80x 24 0 c) blister dcss-git L17 PoEn, Spider:2 80x 24 11m 16s 0 d) britz1234 dcss-git L11 TeBe, D:9 80x 24 30s 0 e) caiman dcss-git L6 DsEn, D:4 80x 24 0 f) circleofdust dcss-git L8 ReEE, D:5 80x 24 0 g) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 26s 0 h) drogi3814 dcss-git L2 MuNe, D:2 80x 24 6s 0 i) hjh4653 dcss-git L13 MiFi, Lair:5 80x 24 3m 31s 0 j) hong2 dcss-0.13 L9 TrCK, D:8 80x 24 0 k) Lupeow dcss-git L1 DsMo, D:1 80x 24 0 l) namsansan dcss-git L7 DrWn, D:4 80x 24 0 m) nimuck dcss-git L15 FoHu, Necropolis 80x 24 0 n) OGT dcss-git L23 OnGl, Depths:3 80x 24 0 o) okmg321 dcss-git L27 DjCj, Coc:4 80x 24 0 (1-15 of 20) Watch which game? ('?' for help) =>
+match: a) 20240819 dcss-git L6 FoFi, D:3 80x 24 2
+ username: 20240819
+ idle_part: 
+
+Target found: '20240819'
+
+🥇 유저 진입 (20240819)
+buffer =   Edmund whines, "They better pay attention to me now!"  -2  /47 - --  --more--  [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L9 TeAE, D:8 80x 24 0 b) blister dcss-git L17 PoEn, Spider:2 80x 24 11m 38s 0 c) britz1234 dcss-git L11 TeBe, D:9 80x 24 0 d) caiman dcss-git L6 DsEn, D:4 80x 24 0 e) circleofdust dcss-git L8 ReEE, D:6 80x 24 1 f) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 18s 0 g) drogi3814 dcss-git L2 MuNe, D:2 80x 24 0 h) hjh4653 dcss-git L13 MiFi, Lair:5 80x 24 3m 53s 0 i) hong2 dcss-0.13 L9 TrCK, D:8 80x 24 0 j) Lupeow dcss-git L2 DsMo, D:1 80x 24 0 k) namsansan dcss-git L7 DrWn, D:5 80x 24 0 l) nimuck dcss-git L15 FoHu, Necropolis 80x 24 0 m) OGT dcss-git L23 OnGl, Depths:3 80x 24 0 n) okmg321 dcss-git L27 DjCj, Coc:4 80x 24 5s 0 o) opking dcss-git L11 OpBe, D:11 80x 24 0 (1-15 of 19) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L9 TeAE, D:8 80x 24 0
+ username: blase
+ idle_part: 
+
+SKIP: 'blase' (최근 본 유저)
+match: b) blister dcss-git L17 PoEn, Spider:2 80x 24 11m 38s 0
+ username: blister
+ idle_part: 11m 38s
+
+SKIP: 'blister' (최근 본 유저)
+match: c) britz1234 dcss-git L11 TeBe, D:9 80x 24 0
+ username: britz1234
+ idle_part: 
+
+SKIP: 'britz1234' (최근 본 유저)
+match: d) caiman dcss-git L6 DsEn, D:4 80x 24 0
+ username: caiman
+ idle_part: 
+
+SKIP: 'caiman' (최근 본 유저)
+match: e) circleofdust dcss-git L8 ReEE, D:6 80x 24 1
+ username: circleofdust
+ idle_part: 
+
+Target found: 'circleofdust'
+
+🥇 유저 진입 (circleofdust)
+buffer =  -2  /62 -  --more--    Gear: 12/52 gear slots (Left/Right to switch category) [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L1 TeAE, D:1 80x 24 0 b) blister dcss-git L17 PoEn, Spider:2 80x 24 13m 44s 0 c) britz1234 dcss-git L11 TeBe, D:10 80x 24 0 d) caiman dcss-git L7 DsEn, D:5 80x 24 1m 0s 0 e) circleofdust dcss-git 80x 24 0 f) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 24s 0 g) drogi3814 dcss-git L3 MuNe, D:2 80x 24 0 h) hjh4653 dcss-git L14 MiFi, D:10 80x 24 0 i) Lupeow dcss-git L1 DsMo, D:1 80x 24 0 j) namsansan dcss-git L8 DrWn, D:5 80x 24 0 k) nimuck dcss-git L15 FoHu, Necropolis 80x 24 0 l) OGT dcss-git L23 OnGl, Arena 80x 24 6s 0 m) okmg321 dcss-git L27 DjCj, Coc:7 80x 24 0 n) opking dcss-git L12 OpBe, D:13 80x 24 0 o) OTabTabTab dcss-git L27 DrCj, Pan 80x 24 0 (1-15 of 18) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L1 TeAE, D:1 80x 24 0
+ username: blase
+ idle_part: 
+
+Target found: 'blase'
+
+🥇 유저 진입 (blase)
+buffer =  -5  /46 ---  --more--    Gear: 9/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  g - the +4 trident "Azinoff" (weapon) {flame, rElec}  c - a +0 spear e - a +0 trident i - a +0 orcbow Missiles (go to first with  (  )  b - 3 poisoned darts Armour (go to first with  [  )  a - a +0 robe (worn)  Magical Staves (go to first with  |  ) f - a staff of air Jewellery (go to first with  "=  )  h - a +6 ring of intelligence Talismans (go to first with  %  )  d - a quill talisman   Goodbye, blase. 1514 blase the Gusty (level 8, -5/46 HPs) Began as a Tengu Air Elementalist on Feb 2, 2026. Slain by a sky beast (12 damage) ... on level 6 of the Dungeon. The game lasted 00:03:46 (6020 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git 80x 24 0 b) blister dcss-git L17 PoEn, Spider:2 80x 24 17m 19s 0 c) britz1234 dcss-git L12 TeBe, Lair:2 80x 24 0 d) caiman dcss-git L7 DsEn, D:5 80x 24 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 29s 0 f) drogi3814 dcss-git L1 SpHs, D:1 80x 24 0 g) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 0 h) Lupeow dcss-git L1 DsMo, D:1 80x 24 0 i) namsansan dcss-git L8 DrWn, D:6 80x 24 13s 0 j) OGT dcss-git L23 OnGl, Depths:3 80x 24 0 k) okmg321 dcss-git L27 DjCj, Coc:7 80x 24 0 l) opking dcss-git L13 OpBe, Lair:1 80x 24 0 m) OTabTabTab dcss-git L27 DrCj, Pan 80x 24 0 n) Trone dcss-git L6 MDFw, Temple 80x 24 0 o) wiiwiwi dcss-git L13 FoFi, Orc:1 80x 24 0 (1-15 of 15) Watch which game? ('?' for help) =>
+match: b) blister dcss-git L17 PoEn, Spider:2 80x 24 17m 19s 0
+ username: blister
+ idle_part: 17m 19s
+
+SKIP: 'blister' (최근 본 유저)
+match: c) britz1234 dcss-git L12 TeBe, Lair:2 80x 24 0
+ username: britz1234
+ idle_part: 
+
+SKIP: 'britz1234' (최근 본 유저)
+match: d) caiman dcss-git L7 DsEn, D:5 80x 24 0
+ username: caiman
+ idle_part: 
+
+Target found: 'caiman'
+
+🥇 유저 진입 (caiman)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L8 TeAE, D:6 80x 24 0 b) blister dcss-git L17 PoEn, Spider:2 80x 24 23m 22s 0 c) britz1234 dcss-git L13 TeBe, Lair:4 80x 24 0 d) caiman dcss-git L9 DsEn, D:6 80x 24 30s 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 0 f) drogi3814 dcss-git L4 SpHs, D:3 80x 24 6s 0 g) garlicwater dcss-git L4 DjCj, D:3 80x 24 1 h) hjh4653 dcss-git L14 MiFi, Gauntlet 80x 24 2m 40s 0 i) Lupeow dcss-git L3 DsMo, D:2 80x 24 12s 0 j) namsansan dcss-git L9 DrWn, D:7 80x 24 0 k) OGT dcss-git L24 OnGl, Depths:3 80x 24 0 l) okmg321 dcss-git L27 DjCj, Tar:2 80x 24 0 m) OTabTabTab dcss-git L27 DrCj, Pan 80x 24 24s 0 n) Trone dcss-git L8 MDFw, D:6 80x 24 0 o) wiiwiwi dcss-git L13 FoFi, Orc:2 80x 24 0 (1-15 of 15) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L8 TeAE, D:6 80x 24 0
+ username: blase
+ idle_part: 
+
+SKIP: 'blase' (최근 본 유저)
+match: b) blister dcss-git L17 PoEn, Spider:2 80x 24 23m 22s 0
+ username: blister
+ idle_part: 23m 22s
+
+SKIP: 'blister' (1분 이상 잠수)
+match: c) britz1234 dcss-git L13 TeBe, Lair:4 80x 24 0
+ username: britz1234
+ idle_part: 
+
+SKIP: 'britz1234' (최근 본 유저)
+match: d) caiman dcss-git L9 DsEn, D:6 80x 24 30s 0
+ username: caiman
+ idle_part: 30s
+
+SKIP: 'caiman' (최근 본 유저)
+match: f) drogi3814 dcss-git L4 SpHs, D:3 80x 24 6s 0
+ username: drogi3814
+ idle_part: 6s
+
+예비 대기 유저: 'drogi3814'
+match: g) garlicwater dcss-git L4 DjCj, D:3 80x 24 1
+ username: garlicwater
+ idle_part: 
+
+Target found: 'garlicwater'
+
+🥇 유저 진입 (garlicwater)
+buffer =  -5  /33 ---  --more--    Gear: 5/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  e - a +0 whip (weapon)  Armour (go to first with  [  )  a - a +0 robe (worn) f - an orb of mayhem (worn)  Jewellery (go to first with  "=  )  c - an amulet of reflection (worn) d - a ring of protection from cold (worn)    Goodbye, garlicwater. 57 garlicwater the Ducker (level 4, -5/33 HPs) Began as a Djinni Conjurer on Feb 2, 2026. Slain by an orc ... wielding a +0 trident (11 damage) ... on level 3 of the Dungeon. The game lasted 00:05:10 (1935 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong DEEE-27 escaped with the Orb 9.57616204 Wong DECj-27 escaped with the Orb 10.57296114 caiman PoEn-27 escaped with the Orb 11.45985312 Wong FeDe-27 escaped with the Orb 12.44522237 Wong DjCj-27 escaped with the Orb [?25h[?0c [?1051l[?1052l[?1060l[?1061l[?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L2 TeAE, D:1 80x 24 0 b) blister dcss-git L17 PoEn, Spider:2 80x 24 23m 58s 0 c) britz1234 dcss-git L13 TeBe, Lair:4 80x 24 2 d) caiman dcss-git L9 DsEn, D:6 80x 24 1m 6s 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 8s 0 f) drogi3814 dcss-git L4 SpHs, D:3 80x 24 0 g) hjh4653 dcss-git L14 MiFi, Gauntlet 80x 24 3m 16s 0 h) Muu kimchicrawl-spL9 MiCl, D 80x 24 0 i) namsansan dcss-git L9 DrWn, D:7 80x 24 0 j) OGT dcss-git L24 OnGl, Depths:3 80x 24 7s 0 k) okmg321 dcss-git L27 DjCj, Tar:2 80x 24 14s 0 l) OTabTabTab dcss-git L27 DrCj, Pan 80x 24 1m 0s 0 m) Trone dcss-git L9 MDFw, D:6 80x 24 0 n) wiiwiwi dcss-git L13 FoFi, Orc:2 80x 24 0 (1-14 of 14) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L2 TeAE, D:1 80x 24 0
+ username: blase
+ idle_part: 
+
+SKIP: 'blase' (최근 본 유저)
+match: b) blister dcss-git L17 PoEn, Spider:2 80x 24 23m 58s 0
+ username: blister
+ idle_part: 23m 58s
+
+SKIP: 'blister' (1분 이상 잠수)
+match: c) britz1234 dcss-git L13 TeBe, Lair:4 80x 24 2
+ username: britz1234
+ idle_part: 
+
+Target found: 'britz1234'
+
+🥇 유저 진입 (britz1234)
+buffer =  -4  /97 -------  [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git L9 MDFi, D:8 80x 24 0 b) blase dcss-git L2 TeAE, D:1 80x 24 51s 0 c) blister dcss-git L17 PoEn, Spider:2 80x 24 1h 0m 0 d) britz1234 dcss-git 80x 24 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 0 f) drogi3814 dcss-git L11 MiCK, D:12 80x 24 0 g) garlicwater dcss-git L10 DjCj, D:8 80x 24 0 h) Gumil dcss-git L2 MiBe, D:1 80x 24 7s 0 i) gusrb771 dcss-git L9 DgHu, D:6 80x 24 0 j) hjh4653 dcss-git L14 MiFi, Gauntlet 80x 24 39m 41s 0 k) hslovejs dcss-git L2 CoFi, D:1 80x 24 0 l) LAYA dcss-git L6 GnFi, D:4 80x 24 0 m) leejisoo dcss-git-tutorL1 HuFi, D:1 80x 24 0 n) Mneme dcss-git 80x 24 1m 49s 0 o) Mpel dcss-git L12 MiFi, Orc:1 80x 24 0 (1-15 of 19) Watch which game? ('?' for help) =>
+match: a) 7514dla dcss-git L9 MDFi, D:8 80x 24 0
+ username: 7514dla
+ idle_part: 
+
+Target found: '7514dla'
+
+🥇 유저 진입 (7514dla)
+buffer =  -9  /70 - ----- 1 =---  --more--  [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 1 b) blase dcss-git L4 TeAE, D:3 80x 24 0 c) blister dcss-git L17 PoEn, Spider:2 80x 24 1h 1m 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 28s 0 e) drogi3814 dcss-git L11 MiCK, D:12 80x 24 0 f) ds04031004 dcss-git L25 MfGl, Vaults:5 80x 24 0 g) garlicwater dcss-git L10 DjCj, D:9 80x 24 0 h) Gumil dcss-git L2 MiBe, D:1 80x 24 59s 0 i) gusrb771 dcss-git L9 DgHu, D:6 80x 24 0 j) hjh4653 dcss-git L14 MiFi, Gauntlet 80x 24 41m 7s 0 k) hslovejs dcss-git L3 CoFi, D:2 80x 24 0 l) LAYA dcss-git L8 GnFi, D:5 80x 24 0 m) leejisoo dcss-git-tutorL2 HuFi, D:2 80x 24 0 n) Mneme dcss-git 80x 24 3m 15s 0 o) Mpel dcss-git L12 MiFi, Lair:1 80x 24 40s 0 (1-15 of 20) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L4 TeAE, D:3 80x 24 0
+ username: blase
+ idle_part: 
+
+SKIP: 'blase' (최근 본 유저)
+match: c) blister dcss-git L17 PoEn, Spider:2 80x 24 1h 1m 0
+ username: blister
+ idle_part: 1h 1m
+
+SKIP: 'blister' (1분 이상 잠수)
+match: e) drogi3814 dcss-git L11 MiCK, D:12 80x 24 0
+ username: drogi3814
+ idle_part: 
+
+Target found: 'drogi3814'
+
+🥇 유저 진입 (drogi3814)
+buffer =   Xom giggles madly!   0/172  ---  --more--    Gear: 25/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  m - the +10 zealot's sword (weapon) {holy, Zealotry, *Rage rN+ EV+3}  a - a +1 falchion of chaos k - a +3 halberd of chaos o - a +2 whip of holy wrath  t - the +10 great mace of the Middle {speed, rF- rC- Will+++ Str+4}  Missiles (go to first with  (  )  p - a throwing net (quivered)  r - 9 poisoned darts Armour (go to first with  [  )  n - a +0 pair of gloves of dexterity (worn) q - +0 steam dragon scales (worn) w - a +1 pair of boots of stealth (worn) y - a +0 cloak of stealth (worn)  b - a +3 leather armour d - a +3 leather armour of cold resistance  f - a +0 pair of boots h - a +0 cloak j - a +0 pair of gloves  l - the +0 ring mail "Ejyirchatz" {rN+ rCorr} u - the +3 salamander hide armour {Flames, rFlCloud rF++ rC-- Fire} v - the +0 scale mail of Macaroni {Harm rElec rCorr Dex+2}  [  Up  |  Down  ] select [  PgDn  |  >  ] page down [  PgUp  |  <  ] page up [  Esc  ] exit [  top  ]   Goodbye, drogi3814. 25260 drogi3814 the Carver (level 12, 0/172 HPs) Began as a Minotaur Chaos Knight on Feb 2, 2026. Was a Plaything of Xom. Slain by an undying armoury (17 damage) ... on level 1 of the Vaults. The game lasted 00:42:58 (10288 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong DEEE-27 escaped with the Orb 9.57616204 Wong DECj-27 escaped with the Orb 10.57296114 caiman PoEn-27 escaped with the Orb 11.45985312 Wong FeDe-27 escaped with the Orb 12.44522237 Wong DjCj-27 escaped with the Orb 13.44367709 catclaw CoHu-27 escaped with the Orb[?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 10m 34s 0 b) blase dcss-git L1 TeAE, D:1 80x 24 3m 30s 0 c) blister dcss-git L17 PoEn, Spider:2 80x 24 1h 13m 0 d) c22 dcss-git-desceL18 FoFi, Elf:1 80x 24 10s 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 0 f) ds04031004 dcss-git L25 MfGl, Crypt:1 80x 24 0 g) Duken00 dcss-git L2 DsGl, D:2 80x 24 0 h) garlicwater dcss-git L4 DjCj, D:3 80x 24 5s 0 i) Gumil dcss-git L2 MiBe, D:2 80x 24 1m 8s 0 j) gusrb771 dcss-git L11 DgHu, D:10 80x 24 0 k) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 1m 39s 0 l) LAYA dcss-git L4 GnFi, D:3 80x 24 0 m) leejisoo dcss-git-tutorL3 HuFi, D:3 80x 24 6m 25s 0 n) Mneme dcss-git L2 FeSh, D:1 80x 24 4m 16s 0 o) Mpel dcss-git L15 MiFi, D:13 80x 24 0 (1-15 of 20) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L1 TeAE, D:1 80x 24 3m 30s 0
+ username: blase
+ idle_part: 3m 30s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) blister dcss-git L17 PoEn, Spider:2 80x 24 1h 13m 0
+ username: blister
+ idle_part: 1h 13m
+
+SKIP: 'blister' (1분 이상 잠수)
+match: f) ds04031004 dcss-git L25 MfGl, Crypt:1 80x 24 0
+ username: ds04031004
+ idle_part: 
+
+Target found: 'ds04031004'
+
+🥇 유저 진입 (ds04031004)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 15m 25s 0 b) blase dcss-git L2 TeAE, D:1 80x 24 3m 10s 0 c) blister dcss-git L17 PoEn, Spider:3 80x 24 0 d) c22 dcss-git-desceL18 FoFi, Elf:2 80x 24 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 25s 0 f) Duken00 dcss-git L3 DsGl, D:1 80x 24 0 g) flipcanvas dcss-git L2 VSBr, D:1 80x 24 1m 11s 0 h) garlicwater dcss-git L7 DjCj, D:4 80x 24 0 i) Gumil dcss-git L2 MiBe, D:2 80x 24 4m 8s 0 j) gusrb771 dcss-git L11 DgHu, Gauntlet 80x 24 5s 0 k) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 6m 30s 0 l) LAYA dcss-git 80x 24 3m 46s 0 m) leejisoo dcss-git-tutorL3 HuFi, D:3 80x 24 11m 16s 0 n) Mneme dcss-git L5 FeSh, D:4 80x 24 0 o) Mpel dcss-git L16 MiFi, Spider:1 80x 24 0 (1-15 of 20) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L2 TeAE, D:1 80x 24 3m 10s 0
+ username: blase
+ idle_part: 3m 10s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) blister dcss-git L17 PoEn, Spider:3 80x 24 0
+ username: blister
+ idle_part: 
+
+Target found: 'blister'
+
+🥇 유저 진입 (blister)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 18m 2s 0 b) blase dcss-git L2 TeAE, D:1 80x 24 5m 47s 0 c) c22 dcss-git-desceL18 FoFi, Elf:2 80x 24 5s 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 0 e) Duken00 dcss-git L4 DsGl, D:3 80x 24 0 f) flipcanvas dcss-git L2 VSBr, D:1 80x 24 3m 48s 0 g) garlicwater dcss-git L8 DjCj, D:6 80x 24 0 h) Gumil dcss-git L2 MiBe, D:2 80x 24 6m 45s 0 i) gusrb771 dcss-git L12 DgHu, Lair:2 80x 24 0 j) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 9m 7s 0 k) LAYA dcss-git 80x 24 6m 23s 0 l) Mneme dcss-git L7 FeSh, Sewer 80x 24 0 m) Mpel dcss-git L5 MiFi, D:3 80x 24 0 n) opg0315 dcss-git L4 PoEn, D:2 80x 24 0 o) Pinkiepie dcss-git L14 DgEE, Orc:2 80x 24 0 (1-15 of 17) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L2 TeAE, D:1 80x 24 5m 47s 0
+ username: blase
+ idle_part: 5m 47s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: e) Duken00 dcss-git L4 DsGl, D:3 80x 24 0
+ username: Duken00
+ idle_part: 
+
+Target found: 'Duken00'
+
+🥇 유저 진입 (Duken00)
+buffer =   Edmund says, "That'll show my brother!"  -4 ------ -------  --more--    Gear: 5/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  a - a +0 war axe (weapon)  Missiles (go to first with  (  )  e - a javelin Armour (go to first with  [  )  b - a +0 leather armour (worn) c - a +0 helmet (worn)  Jewellery (go to first with  "=  )  f - a ring of protection from cold (worn)    Goodbye, Duken00. 230 Duken00 the Chopper (level 5, -4/40 HPs) Began as a Demonspawn Gladiator on Feb 2, 2026. Slain by Edmund ... wielding a +5 flail of holy wrath (14 damage) ... on level 4 of the Dungeon. The game lasted 00:09:23 (2271 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 22m 32s 0 b) acidosis3 dcss-git L8 TrBe, D:6 80x 24 2 c) blase dcss-git L1 TeAE, D:1 80x 24 15s 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 0 e) Duken00 dcss-git 80x 24 0 f) flipcanvas dcss-git L2 VSBr, D:1 80x 24 8m 18s 0 g) garlicwater dcss-git L9 DjCj, D:7 80x 24 0 h) Gumil dcss-git L2 MiBe, D:2 80x 24 11m 15s 0 i) gusrb771 dcss-git L13 DgHu, Lair:4 80x 24 0 j) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 13m 37s 0 k) LAYA dcss-git 80x 24 10m 53s 0 l) Mneme dcss-git L8 FeSh, Temple 80x 24 1m 18s 0 m) Mpel dcss-git L2 MiFi, D:2 80x 24 0 n) opg0315 dcss-git L1 PoEn, D:1 80x 24 0 o) Pinkiepie dcss-git L14 DgEE, D:12 80x 24 0 (1-15 of 18) Watch which game? ('?' for help) =>
+match: b) acidosis3 dcss-git L8 TrBe, D:6 80x 24 2
+ username: acidosis3
+ idle_part: 
+
+Target found: 'acidosis3'
+
+🥇 유저 진입 (acidosis3)
+buffer =   -9  ----- ----  --more--    Gear: 20/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  ) q - a +0 arbalest of flaming s - a +3 quick blade of flaming Missiles (go to first with  (  )  b - 24 boomerangs (quivered)  k - 12 poisoned darts l - 4 large rocks m - 5 darts of disjunction  o - a throwing net  t - 7 javelins Armour (go to first with  [  )  c - a +1 kite shield (worn) e - a scarf of shadows (worn) j - a +0 troll leather armour (worn)  g - an orb of mesmerism h - a +2 robe of fire resistance Jewellery (go to first with  "=  )  n - a ring of protection from fire (worn) p - the ring of Ashenzari, Chewing (worn) {rF+ rC+ Str+9 Dex+3}  a - a ring of resist corrosion r - a ring of wizardry Talismans (go to first with  %  )  [  Up  |  Down  ] select [  PgDn  |  >  ] page down [  PgUp  |  <  ] page up [  Esc  ] exit [  top  ]   Goodbye, acidosis3. 31534 acidosis3 the Mimic (level 13, -9/184 HPs) Began as a Troll Berserker on Feb 2, 2026. Was a High Priest of Trog. Mangled by an 11-headed hydra (13 damage) ... on level 4 of the Lair of Beasts. The game lasted 00:19:23 (14934 turns). Best Crawlers - [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 37m 41s 0 b) acidosis3 dcss-git 80x 24 0 c) blase dcss-git L1 TeAE, D:1 80x 24 15m 24s 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 11s 0 e) ds04031004 dcss-git L26 MfGl, Tomb:1 80x 24 0 f) flipcanvas dcss-git L2 VSBr, D:1 80x 24 23m 27s 0 g) garlicwater dcss-git L5 DjCj, D:3 80x 24 0 h) Gumil dcss-git L2 MiBe, D:2 80x 24 20s 0 i) gusrb771 dcss-git L15 DgHu, Lair:2 80x 24 0 j) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 28m 46s 0 k) LAYA dcss-git 80x 24 26m 2s 0 l) Mneme dcss-git L10 FeSh, D:8 80x 24 0 m) Muu kimchicrawl-spL16 MiCl, D 80x 24 0 n) okmg321 dcss-git L27 DjCj, Crypt:2 80x 24 0 o) opg0315 dcss-git L9 PoEn, D:7 80x 24 0 (1-15 of 21) Watch which game? ('?' for help) =>
+match: c) blase dcss-git L1 TeAE, D:1 80x 24 15m 24s 0
+ username: blase
+ idle_part: 15m 24s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: e) ds04031004 dcss-git L26 MfGl, Tomb:1 80x 24 0
+ username: ds04031004
+ idle_part: 
+
+SKIP: 'ds04031004' (최근 본 유저)
+match: f) flipcanvas dcss-git L2 VSBr, D:1 80x 24 23m 27s 0
+ username: flipcanvas
+ idle_part: 23m 27s
+
+SKIP: 'flipcanvas' (1분 이상 잠수)
+match: g) garlicwater dcss-git L5 DjCj, D:3 80x 24 0
+ username: garlicwater
+ idle_part: 
+
+Target found: 'garlicwater'
+
+🥇 유저 진입 (garlicwater)
+buffer =  0  /72 ----------  --more--    Gear: 12/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  k - the +7 falchion of Efeyzaiw (weapon) {drain, rN+}  Missiles (go to first with  (  )  b - a throwing net {!f}  Armour (go to first with  [  )  a - a +0 robe (worn) h - a +2 helmet of intelligence (worn) i - a +0 pair of gloves (worn) l - an orb of mayhem (worn)  Magical Staves (go to first with  |  ) e - a staff of necromancy Jewellery (go to first with  "=  )  d - an amulet of regeneration (worn) f - a ring of wizardry (worn) g - a ring of protection from cold (worn)  c - a ring of resist corrosion j - a ring of protection from cold   Goodbye, garlicwater. 4214 garlicwater the Toxicologist (level 10, 0/72 HPs) Began as a Djinni Conjurer on Feb 2, 2026. Was a Follower of Makhleb. Slain by a white ugly thing (23 damage) ... on level 9 of the Dungeon. The game lasted 00:19:22 (7508 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong DEEE-27 escaped with the Orb 9.57616204 Wong DECj-27 escaped with the Orb 10.57296114 caiman PoEn-27 escaped with the Orb 11.45985312 Wong FeDe-27 escaped with the Orb 12.44522237 Wong DjCj-27 escaped with the Orb 13.44367709 catclaw CoHu-27 escaped with the Orb [?25h[?0c [?1051l[?1052l[?1060l[?1061l[?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 53m 44s 0 b) blase dcss-git L11 TeAE, D:1 80x 24 8s 0 c) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 13s 0 d) ds04031004 dcss-git L26 MfGl, Tomb:1 80x 24 0 e) flipcanvas dcss-git L2 VSBr, D:1 80x 24 39m 30s 0 f) Gumil dcss-git L2 MiBe, D:2 80x 24 1 g) gusrb771 dcss-git L9 DgHu, D:8 80x 24 0 h) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 44m 49s 0 i) Huckle dcss-git L10 FeEn, D:8 80x 24 0 j) LAYA dcss-git 80x 24 42m 5s 0 k) Mneme dcss-git L12 FeSh, Lair:3 80x 24 0 l) opg0315 dcss-git L9 PoEn, D:7 80x 24 15m 51s 0 m) OTabTabTab dcss-git L27 DrCj, Depths:4 80x 24 0 n) sithis25 dcss-git L11 FeEn, D:10 80x 24 24s 0 o) Smeagol dcss-0.34 L9 HuFE, D:5 80x 24 5s 0 (1-15 of 16) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L11 TeAE, D:1 80x 24 8s 0
+ username: blase
+ idle_part: 8s
+
+예비 대기 유저: 'blase'
+match: d) ds04031004 dcss-git L26 MfGl, Tomb:1 80x 24 0
+ username: ds04031004
+ idle_part: 
+
+SKIP: 'ds04031004' (최근 본 유저)
+match: e) flipcanvas dcss-git L2 VSBr, D:1 80x 24 39m 30s 0
+ username: flipcanvas
+ idle_part: 39m 30s
+
+SKIP: 'flipcanvas' (1분 이상 잠수)
+match: f) Gumil dcss-git L2 MiBe, D:2 80x 24 1
+ username: Gumil
+ idle_part: 
+
+Target found: 'Gumil'
+
+🥇 유저 진입 (Gumil)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 54m 14s 0 b) blase dcss-git L11 TeAE, D:8 80x 24 15s 0 c) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 13s 0 d) ds04031004 dcss-git L26 MfGl, Lair:1 80x 24 2 e) flipcanvas dcss-git L2 VSBr, D:1 80x 24 40m 0s 0 f) garlicwater dcss-git L2 DjCj, D:1 80x 24 0 g) gusrb771 dcss-git L10 DgHu, D:8 80x 24 0 h) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 45m 19s 0 i) Huckle dcss-git L10 FeEn, D:8 80x 24 0 j) LAYA dcss-git 80x 24 42m 35s 0 k) Mneme dcss-git L12 FeSh, Lair:3 80x 24 0 l) opg0315 dcss-git L9 PoEn, D:7 80x 24 16m 21s 0 m) OTabTabTab dcss-git L27 DrCj, Depths:4 80x 24 19s 0 n) sithis25 dcss-git L11 FeEn, D:10 80x 24 30s 0 o) Smeagol dcss-0.34 L9 HuFE, D:7 80x 24 0 (1-15 of 16) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L11 TeAE, D:8 80x 24 15s 0
+ username: blase
+ idle_part: 15s
+
+예비 대기 유저: 'blase'
+match: d) ds04031004 dcss-git L26 MfGl, Lair:1 80x 24 2
+ username: ds04031004
+ idle_part: 
+
+Target found: 'ds04031004'
+
+🥇 유저 진입 (ds04031004)
+buffer =  -56  /182 (214) --  --more--    Gear: 23/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  x - the +9 double sword of Dissent (weapon) {spect, rF+ Int+7}  a - a +4 heavy double sword b - a +1 double sword of electrocution  c - the +5 long sword of Watchfulness {flame, Will+}  Missiles (go to first with  (  )  e - 53 javelins  l - 5 throwing nets (quivered)  v - 27 silver javelins Armour (go to first with  [  )  g - +6 fire dragon scales (worn) w - a +2 helmet of intelligence (worn) y - the +1 pair of gloves of Lesser Demons (worn) {rC+ Str-3 Int+7} D - the +10 tower shield of Ignorance (worn) {rN+ Int-4} E - the -1 pair of boots "Vutef" (worn) {rF+ Stlth+} X - a +0 cloak of poison resistance (worn) d - the +3 scale mail of a Labyrinth {rF++ Will- Int+3 Dex+3}  f - a +0 cloak of willpower  o - the +8 chain mail of Avant Garde Miracles {rC++ MP+10 Int-4} q - the +5 scale mail "Ifestreywn" {Int+3 Dex+5 Slay+6 Stlth-}  Jewellery (go to first with  "=  )  h - the ring "Haiph" (worn) {rC+ Wiz}  [  Up  |  Down  ] select [  PgDn  |  >  ] page down [  PgUp  |  <  ] page up [  Esc  ] exit [  top  ]   Goodbye, ds04031004. 585929 ds04031004 the Skinwalker (level 27, -56/182 (214) HPs) Began as a Merfolk Gladiator on Feb 2, 2026. Was a High Priest of Okawaru. Killed from afar by an eye of devastation (84 damage) ... with a bolt of devastation ... on level 2 of the Pits of Slime. The game lasted 02:33:21 (60908 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong DEEE-27 escaped with the Orb 9.57616204 Wong DECj-27 escaped with the Orb 10.57296114 caiman PoEn-27 escaped with the Orb 11.45985312 Wong FeDe-27 escaped with the Orb 12.44522237 Wong DjCj-27 escaped with the Orb [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 2m 59s 0 b) acidosis3 dcss-git 80x 24 4m 24s 0 c) blase dcss-git L13 TeAE, Lair:2 80x 24 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 14s 0 e) ds04031004 dcss-git 80x 24 1 f) flipcanvas dcss-git L2 VSBr, D:1 80x 24 52m 31s 0 g) garlicwater dcss-git L8 DjCj, D:4 80x 24 0 h) gusrb771 dcss-git 80x 24 50s 0 i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 57m 50s 0 j) Huckle dcss-git L11 FeEn, D:11 80x 24 0 k) LAYA dcss-git 80x 24 55m 6s 0 l) Mneme dcss-git 80x 24 2m 43s 0 m) namsansan dcss-git L14 DrWn, D:12 80x 24 0 n) opg0315 dcss-git L9 PoEn, D:7 80x 24 28m 52s 0 o) OTabTabTab dcss-git L27 DrCj, Hell 80x 24 0 (1-15 of 17) Watch which game? ('?' for help) =>
+match: c) blase dcss-git L13 TeAE, Lair:2 80x 24 0
+ username: blase
+ idle_part: 
+
+Target found: 'blase'
+
+🥇 유저 진입 (blase)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 3m 42s 0 b) acidosis3 dcss-git 80x 24 5m 7s 0 c) blase dcss-git L13 TeAE, Lair:2 80x 24 31s 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 27s 0 e) flipcanvas dcss-git L2 VSBr, D:1 80x 24 53m 14s 0 f) garlicwater dcss-git L8 DjCj, D:5 80x 24 0 g) gusrb771 dcss-git L2 DgHu, D:2 80x 24 2 h) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 58m 33s 0 i) Huckle dcss-git L11 FeEn, D:11 80x 24 0 j) LAYA dcss-git 80x 24 55m 49s 0 k) Mneme dcss-git 80x 24 37s 0 l) namsansan dcss-git L14 DrWn, D:12 80x 24 0 m) opg0315 dcss-git L9 PoEn, D:7 80x 24 29m 35s 0 n) OTabTabTab dcss-git L27 DrCj, Dis:2 80x 24 0 o) rmtlsrmdhkd dcss-0.34 L8 MiFi, D:5 80x 24 11s 0 (1-15 of 16) Watch which game? ('?' for help) =>
+match: c) blase dcss-git L13 TeAE, Lair:2 80x 24 31s 0
+ username: blase
+ idle_part: 31s
+
+SKIP: 'blase' (최근 본 유저)
+match: e) flipcanvas dcss-git L2 VSBr, D:1 80x 24 53m 14s 0
+ username: flipcanvas
+ idle_part: 53m 14s
+
+SKIP: 'flipcanvas' (1분 이상 잠수)
+match: f) garlicwater dcss-git L8 DjCj, D:5 80x 24 0
+ username: garlicwater
+ idle_part: 
+
+SKIP: 'garlicwater' (최근 본 유저)
+match: g) gusrb771 dcss-git L2 DgHu, D:2 80x 24 2
+ username: gusrb771
+ idle_part: 
+
+Target found: 'gusrb771'
+
+🥇 유저 진입 (gusrb771)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 4m 23s 0 b) acidosis3 dcss-git 80x 24 5m 48s 0 c) blase dcss-git L13 TeAE, Lair:2 80x 24 1m 12s 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 8s 0 e) flipcanvas dcss-git L2 VSBr, D:1 80x 24 53m 55s 0 f) garlicwater dcss-git L8 DjCj, D:5 80x 24 0 g) gusrb771 dcss-git L2 DgHu, D:2 80x 24 30s 2 h) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 59m 14s 0 i) Huckle dcss-git L11 FeEn, D:12 80x 24 0 j) LAYA dcss-git 80x 24 56m 30s 0 k) Mneme dcss-git 80x 24 1m 18s 0 l) namsansan dcss-git L14 DrWn, D:12 80x 24 0 m) opg0315 dcss-git L9 PoEn, D:7 80x 24 30m 16s 0 n) OTabTabTab dcss-git L27 DrCj, Dis:2 80x 24 0 o) rmtlsrmdhkd dcss-0.34 L8 MiFi, D:5 80x 24 6s 0 (1-15 of 17) Watch which game? ('?' for help) =>
+match: c) blase dcss-git L13 TeAE, Lair:2 80x 24 1m 12s 0
+ username: blase
+ idle_part: 1m 12s
+
+SKIP: 'blase' (최근 본 유저)
+match: e) flipcanvas dcss-git L2 VSBr, D:1 80x 24 53m 55s 0
+ username: flipcanvas
+ idle_part: 53m 55s
+
+SKIP: 'flipcanvas' (1분 이상 잠수)
+match: f) garlicwater dcss-git L8 DjCj, D:5 80x 24 0
+ username: garlicwater
+ idle_part: 
+
+SKIP: 'garlicwater' (최근 본 유저)
+match: g) gusrb771 dcss-git L2 DgHu, D:2 80x 24 30s 2
+ username: gusrb771
+ idle_part: 30s
+
+SKIP: 'gusrb771' (최근 본 유저)
+match: h) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 59m 14s 0
+ username: hjh4653
+ idle_part: 59m 14s
+
+SKIP: 'hjh4653' (1분 이상 잠수)
+match: i) Huckle dcss-git L11 FeEn, D:12 80x 24 0
+ username: Huckle
+ idle_part: 
+
+Target found: 'Huckle'
+
+🥇 유저 진입 (Huckle)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git L9 MDMo, D:7 80x 24 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 18m 56s 0 c) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 21s 0 d) eunhae dcss-git L10 VSFi, D:8 80x 24 0 e) fbynet dcss-git L1 PoHs, D:1 80x 24 0 f) flipcanvas dcss-git L2 VSBr, D:1 80x 24 1h 11m 0 g) garlicwater dcss-git L11 DjCj, Necropolis 80x 24 0 h) gusrb771 dcss-git L11 DgHu, Lair:1 80x 24 0 i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 1h 16m 0 j) LAYA dcss-git 80x 24 1h 14m 0 k) Mneme dcss-git L8 TeEE, D:4 80x 24 0 l) namsansan dcss-git L15 DrWn, D:13 80x 24 0 m) opg0315 dcss-git L9 PoEn, D:7 80x 24 48m 0s 0 n) OTabTabTab dcss-git L27 DrCj, Tar:7 80x 24 0 o) Pinkiepie dcss-git L1 DgEE, D:1 80x 24 5m 59s 0 (1-15 of 17) Watch which game? ('?' for help) =>
+match: a) 7514dla dcss-git L9 MDMo, D:7 80x 24 0
+ username: 7514dla
+ idle_part: 
+
+Target found: '7514dla'
+
+🥇 유저 진입 (7514dla)
+buffer =  Your body glows slightly brighter and disappears. -11  /77 -- 0 --  --more--    Gear: 9/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  c - a +2 heavy war axe (weapon) g - the +3 sling of the Sneaky Allies {heavy, ^Drain rElec rN++}  Missiles (go to first with  (  )  b - a throwing net (quivered)  Armour (go to first with  [  )  a - a +0 plate armour (worn) d - a +0 kite shield (worn) e - a +2 helmet of light (worn)  Jewellery (go to first with  "=  )  f - a ring of see invisible (worn) h - a +6 ring of strength (worn) i - an amulet of guardian spirit (worn)    Goodbye, 7514dla. 4907 7514dla the Severer (level 10, -11/77 HPs) Began as a Mountain Dwarf Monk on Feb 2, 2026. Was a Believer of Nemelex Xobeh. Mangled by an orc warrior ... wielding a +0 glaive (13 damage) ... on level 9 of the Dungeon. The game lasted 00:15:11 (6152 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong DEEE-27 escaped with the Orb 9.57616204 Wong [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 21m 58s 0 c) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 23s 0 d) fbynet dcss-git L3 PoHs, D:2 80x 24 2 e) flipcanvas dcss-git L4 VSBr, D:3 80x 24 0 f) garlicwater dcss-git L11 DjCj, D:11 80x 24 0 g) gusrb771 dcss-git L1 DgHu, D:1 80x 24 0 h) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 1h 20m 0 i) LAYA dcss-git 80x 24 1h 17m 0 j) Mneme dcss-git L9 TeEE, D:6 80x 24 0 k) namsansan dcss-git L15 DrWn, D:14 80x 24 0 l) opg0315 dcss-git L9 PoEn, D:7 80x 24 0 m) OTabTabTab dcss-git L27 DrCj, Depths:4 80x 24 0 n) Pinkiepie dcss-git L1 DgEE, D:1 80x 24 9m 1s 0 o) rmtlsrmdhkd dcss-0.34 L6 MiFi, D:4 80x 24 0 (1-15 of 16) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 21m 58s 0
+ username: blase
+ idle_part: 21m 58s
+
+SKIP: 'blase' (최근 본 유저)
+match: d) fbynet dcss-git L3 PoHs, D:2 80x 24 2
+ username: fbynet
+ idle_part: 
+
+Target found: 'fbynet'
+
+🥇 유저 진입 (fbynet)
+buffer =  -10  /36 --  --more--    Gear: 7/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  a - a +4 sling of flaming (weapon)  e - a +1 sling Missiles (go to first with  (  )  d - 3 javelins f - 3 boomerangs Z - 10 poisoned darts Armour (go to first with  [  )  b - a +1 cloak (haunted)  Jewellery (go to first with  "=  )  c - a ring of willpower (worn)    Goodbye, fbynet. 130 fbynet the Vexing (level 5, -10/36 HPs) Began as a Poltergeist Hexslinger on Feb 2, 2026. Shot with an arrow by a centaur (15 damage) ... on level 4 of the Dungeon. The game lasted 00:08:25 (3248 turns). Best Crawlers - [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L13 TeAE, Lair:2 80x 24 27m 5s 0 b) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 0 c) fbynet dcss-git 80x 24 0 d) flipcanvas dcss-git L6 VSBr, D:5 80x 24 24s 0 e) garlicwater dcss-git L12 DjCj, D:12 80x 24 2 f) gusrb771 dcss-git L2 DgHu, D:2 80x 24 0 g) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 1h 25m 0 h) LAYA dcss-git 80x 24 1h 22m 0 i) Mneme dcss-git L10 TeEE, D:6 80x 24 0 j) namsansan dcss-git L15 DrWn, D:14 80x 24 0 k) opg0315 dcss-git L6 PoEn, Sewer 80x 24 0 l) Pinkiepie dcss-git L1 DgEE, D:1 80x 24 14m 8s 0 m) Redee dcss-git L6 DEHu, Ossuary 80x 24 0 n) Smeagol dcss-0.34 L10 HuFE, D:8 80x 24 19m 49s 0 o) xombeh dcss-git L25 MiBe, Zot:5 80x 24 0 (1-15 of 15) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L13 TeAE, Lair:2 80x 24 27m 5s 0
+ username: blase
+ idle_part: 27m 5s
+
+SKIP: 'blase' (최근 본 유저)
+match: d) flipcanvas dcss-git L6 VSBr, D:5 80x 24 24s 0
+ username: flipcanvas
+ idle_part: 24s
+
+예비 대기 유저: 'flipcanvas'
+match: e) garlicwater dcss-git L12 DjCj, D:12 80x 24 2
+ username: garlicwater
+ idle_part: 
+
+Target found: 'garlicwater'
+
+🥇 유저 진입 (garlicwater)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git L5 MDMo, D:4 80x 24 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 28m 37s 0 c) carss dcss-git L2 OpFi, D:1 80x 24 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 27s 0 e) dizzyto dcss-0.34 L2 MiBe, D:1 80x 24 0 f) flipcanvas dcss-git L6 VSBr, D:5 80x 24 29m 29s 0 g) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 30s 1 h) gusrb771 dcss-git L4 DgHu, D:4 80x 24 0 i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 1h 56m 0 j) Huckle dcss-git L12 FeEn, Lair:2 80x 24 5s 0 k) kaka10 dcss-git L4 TrBe, D:2 80x 24 0 l) LAYA dcss-git 80x 24 1h 53m 0 m) Mneme dcss-git L14 TeEE, D:11 80x 24 0 n) NaU dcss-git L6 MiFi, Temple 80x 24 16m 31s 0 o) opg0315 dcss-git L11 PoEn, Lair:2 80x 24 12m 48s 0 (1-15 of 21) Watch which game? ('?' for help) =>
+match: a) 7514dla dcss-git L5 MDMo, D:4 80x 24 0
+ username: 7514dla
+ idle_part: 
+
+SKIP: '7514dla' (최근 본 유저)
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 28m 37s 0
+ username: blase
+ idle_part: 28m 37s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) carss dcss-git L2 OpFi, D:1 80x 24 0
+ username: carss
+ idle_part: 
+
+Target found: 'carss'
+
+🥇 유저 진입 (carss)
+buffer =  -1  /36 --  --more--    Gear: 4/52 gear slots (Left/Right to switch category)  Armour (go to first with  [  )  a - a +0 buckler (worn)  Magical Staves (go to first with  |  ) d - a staff of alchemy Jewellery (go to first with  "=  )  c - an amulet of faith Talismans (go to first with  %  )  b - a quill talisman (worn)  [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git L6 MDMo, D:5 80x 24 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 29m 55s 0 c) carss dcss-git 80x 24 1 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 15s 0 e) dizzyto dcss-0.34 L4 MiBe, D:2 80x 24 0 f) flipcanvas dcss-git L6 VSBr, D:5 80x 24 30m 47s 0 g) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 5s 0 h) gusrb771 dcss-git L3 DgHu, D:2 80x 24 0 i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 1h 57m 0 j) kaka10 dcss-git L4 TrBe, D:2 80x 24 0 k) LAYA dcss-git 80x 24 1h 54m 0 l) Mneme dcss-git L14 TeEE, D:12 80x 24 0 m) NaU dcss-git L6 MiFi, Temple 80x 24 17m 49s 0 n) opg0315 dcss-git L11 PoEn, Lair:2 80x 24 14m 6s 0 o) Pinkiepie dcss-git L3 DgEE, D:3 80x 24 1m 34s 0 (1-15 of 20) Watch which game? ('?' for help) =>
+match: a) 7514dla dcss-git L6 MDMo, D:5 80x 24 0
+ username: 7514dla
+ idle_part: 
+
+SKIP: '7514dla' (최근 본 유저)
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 29m 55s 0
+ username: blase
+ idle_part: 29m 55s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: e) dizzyto dcss-0.34 L4 MiBe, D:2 80x 24 0
+ username: dizzyto
+ idle_part: 
+
+Target found: 'dizzyto'
+
+🥇 유저 진입 (dizzyto)
+buffer =   0/82  ----  --more--    Gear: 8/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  a - a +0 hand axe (weapon)  c - a +1 war axe  d - the +6 scimitar "Imp's Demise" {pain, +Blink Will- Dex+4}  h - a +2 quarterstaff of chaos Armour (go to first with  [  )  f - a +0 cloak (worn) g - a +2 scale mail of positive energy (worn)  Jewellery (go to first with  "=  )  b - an amulet of regeneration (worn) e - a +6 ring of strength (worn)    Goodbye, dizzyto. 270 dizzyto the Chopper (level 6, 0/82 HPs) Began as a Minotaur Berserker on Feb 2, 2026. Was a Believer of Trog. Slain by an ogre ... wielding a +0 giant club (16 damage) ... on level 4 of the Dungeon. The game lasted 00:04:07 (2650 turns). Best Crawlers - 264. 291 rmtlsrmdhk MiBe-06 blasted by an orc wizard (D:3) 265. 285 GODJELLYKI GrMo-06 slain by an ogre (D:4) 266. 284 tcltk MiBe-06 slain by a gnoll sergeant (D:5) 267. 282 xvv3828 GnFw-06 blasted by an orc wizard (D:4) 268. 277 setset321 GnSu-06 slain by an iguana (D:4)  269. 270 dizzyto MiBe-06 slain by an ogre (D:4)  270. 267 setset321 GnCj-06 blasted by Sigmund (D:4) 271. 260 tcltk MiBe-05 slain by Duvessa (D:3) 272. 249 goodsiyeol MiFi-05 slain by Blorkula the orcula (D:7) 273. 247 rmtlsrmdhk MiFi-05 succumbed to an orc warrior zombie's poison (D:4 274. 246 rmtlsrmdhk MiFi-05 slain by an orc (D:3) [?25h[?0c [?1051l[?1052l[?1060l[?1061l[?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 25s 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 31m 25s 0 c) carss dcss-git L2 MDFi, D:2 80x 24 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 15s 0 e) flipcanvas dcss-git L6 VSBr, D:5 80x 24 32m 17s 0 f) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 0 g) gusrb771 dcss-git L2 DgHu, D:2 80x 24 0 h) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 1h 58m 0 i) Huckle dcss-git L12 FeEn, Lair:2 80x 24 0 j) kaka10 dcss-git L5 TrBe, D:3 80x 24 0 k) LAYA dcss-git 80x 24 1h 56m 0 l) Mneme dcss-git L14 TeEE, Lair:4 80x 24 0 m) NaU dcss-git L6 MiFi, Temple 80x 24 0 n) opg0315 dcss-git L11 PoEn, Lair:2 80x 24 15m 36s 0 o) Pinkiepie dcss-git L3 DgEE, D:3 80x 24 3m 4s 0 (1-15 of 19) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 31m 25s 0
+ username: blase
+ idle_part: 31m 25s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) carss dcss-git L2 MDFi, D:2 80x 24 0
+ username: carss
+ idle_part: 
+
+SKIP: 'carss' (최근 본 유저)
+match: e) flipcanvas dcss-git L6 VSBr, D:5 80x 24 32m 17s 0
+ username: flipcanvas
+ idle_part: 32m 17s
+
+SKIP: 'flipcanvas' (1분 이상 잠수)
+match: f) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 0
+ username: garlicwater
+ idle_part: 
+
+SKIP: 'garlicwater' (최근 본 유저)
+match: g) gusrb771 dcss-git L2 DgHu, D:2 80x 24 0
+ username: gusrb771
+ idle_part: 
+
+Target found: 'gusrb771'
+
+🥇 유저 진입 (gusrb771)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git L2 MDMo, D:1 80x 24 1 b) blase dcss-git L13 TeAE, Lair:2 80x 24 32m 8s 0 c) carss dcss-git L3 MDFi, D:4 80x 24 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 28s 0 e) dizzyto dcss-0.34 L2 MiBe, D:1 80x 24 0 f) flipcanvas dcss-git L6 VSBr, D:5 80x 24 33m 0s 0 g) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 44s 0 h) gusrb771 dcss-git L1 DgHu, D:1 80x 24 0 i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 1h 59m 0 j) Huckle dcss-git L12 FeEn, Lair:2 80x 24 0 k) kaka10 dcss-git L5 TrBe, D:4 80x 24 0 l) LAYA dcss-git 80x 24 1h 56m 0 m) Mneme dcss-git L14 TeEE, Orc:1 80x 24 0 n) NaU dcss-git L7 MiFi, D:5 80x 24 0 o) opg0315 dcss-git L11 PoEn, Lair:2 80x 24 16m 19s 0 (1-15 of 19) Watch which game? ('?' for help) =>
+match: a) 7514dla dcss-git L2 MDMo, D:1 80x 24 1
+ username: 7514dla
+ idle_part: 
+
+Target found: '7514dla'
+
+🥇 유저 진입 (7514dla)
+buffer =  - ---------  --more--  [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 1 b) blase dcss-git L13 TeAE, Lair:2 80x 24 33m 39s 0 c) carss dcss-git L1 MDFw, D:1 80x 24 35s 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 29s 0 e) dizzyto dcss-0.34 L5 MiBe, D:2 80x 24 0 f) flipcanvas dcss-git L6 VSBr, D:5 80x 24 34m 31s 0 g) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 1m 13s 0 h) gusrb771 dcss-git L4 DgHu, D:3 80x 24 0 i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 2h 1m 0 j) Huckle dcss-git L13 FeEn, Lair:2 80x 24 0 k) kaka10 dcss-git L6 TrBe, D:4 80x 24 0 l) LAYA dcss-git 80x 24 1h 58m 0 m) Mneme dcss-git L15 TeEE, Orc:2 80x 24 0 n) NaU dcss-git L9 MiFi, D:6 80x 24 0 o) opg0315 dcss-git L11 PoEn, Lair:2 80x 24 17m 50s 0 (1-15 of 20) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 33m 39s 0
+ username: blase
+ idle_part: 33m 39s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) carss dcss-git L1 MDFw, D:1 80x 24 35s 0
+ username: carss
+ idle_part: 35s
+
+SKIP: 'carss' (최근 본 유저)
+match: e) dizzyto dcss-0.34 L5 MiBe, D:2 80x 24 0
+ username: dizzyto
+ idle_part: 
+
+SKIP: 'dizzyto' (최근 본 유저)
+match: f) flipcanvas dcss-git L6 VSBr, D:5 80x 24 34m 31s 0
+ username: flipcanvas
+ idle_part: 34m 31s
+
+SKIP: 'flipcanvas' (1분 이상 잠수)
+match: g) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 1m 13s 0
+ username: garlicwater
+ idle_part: 1m 13s
+
+SKIP: 'garlicwater' (최근 본 유저)
+match: h) gusrb771 dcss-git L4 DgHu, D:3 80x 24 0
+ username: gusrb771
+ idle_part: 
+
+SKIP: 'gusrb771' (최근 본 유저)
+match: i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 2h 1m 0
+ username: hjh4653
+ idle_part: 2h 1m
+
+SKIP: 'hjh4653' (1분 이상 잠수)
+match: j) Huckle dcss-git L13 FeEn, Lair:2 80x 24 0
+ username: Huckle
+ idle_part: 
+
+Target found: 'Huckle'
+
+🥇 유저 진입 (Huckle)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 3m 33s 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 37m 18s 0 c) carss dcss-git L1 MDFw, D:1 80x 24 1m 59s 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 8s 0 e) dizzyto dcss-0.34 L1 MiBe, D:1 80x 24 0 f) flipcanvas dcss-git L6 VSBr, D:5 80x 24 38m 10s 0 g) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 4m 52s 0 h) gusrb771 dcss-git L3 DgHu, D:3 80x 24 0 i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 2h 4m 0 j) kaka10 dcss-git L1 TrBe, D:1 80x 24 1 k) LAYA dcss-git 80x 24 2h 2m 0 l) Mneme dcss-git L15 TeEE, Orc:1 80x 24 0 m) NaU dcss-git L1 DECj, D:1 80x 24 0 n) opg0315 dcss-git L11 PoEn, Lair:2 80x 24 21m 29s 0 o) rmtlsrmdhkd dcss-0.34 L4 MiFi, D:3 80x 24 1m 32s 0 (1-15 of 18) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 37m 18s 0
+ username: blase
+ idle_part: 37m 18s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) carss dcss-git L1 MDFw, D:1 80x 24 1m 59s 0
+ username: carss
+ idle_part: 1m 59s
+
+SKIP: 'carss' (최근 본 유저)
+match: e) dizzyto dcss-0.34 L1 MiBe, D:1 80x 24 0
+ username: dizzyto
+ idle_part: 
+
+SKIP: 'dizzyto' (최근 본 유저)
+match: f) flipcanvas dcss-git L6 VSBr, D:5 80x 24 38m 10s 0
+ username: flipcanvas
+ idle_part: 38m 10s
+
+SKIP: 'flipcanvas' (1분 이상 잠수)
+match: g) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 4m 52s 0
+ username: garlicwater
+ idle_part: 4m 52s
+
+SKIP: 'garlicwater' (1분 이상 잠수)
+match: h) gusrb771 dcss-git L3 DgHu, D:3 80x 24 0
+ username: gusrb771
+ idle_part: 
+
+SKIP: 'gusrb771' (최근 본 유저)
+match: i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 2h 4m 0
+ username: hjh4653
+ idle_part: 2h 4m
+
+SKIP: 'hjh4653' (1분 이상 잠수)
+match: j) kaka10 dcss-git L1 TrBe, D:1 80x 24 1
+ username: kaka10
+ idle_part: 
+
+Target found: 'kaka10'
+
+🥇 유저 진입 (kaka10)
+buffer =   -13/54  - ---  --more--    Gear: 2/52 gear slots (Left/Right to switch category)  Missiles (go to first with  (  )  b - a throwing net (quivered)  Armour (go to first with  [  )  a - a +0 animal skin (worn)    Goodbye, kaka10. 39 kaka10 the Ruffian (level 3, -13/54 HPs) Began as a Troll Berserker on Feb 2, 2026. Was a Believer of Trog. Mangled by a gnoll ... wielding a +0 halberd (14 damage) ... on level 2 of the Dungeon. The game lasted 00:01:33 (723 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong DEEE-27 escaped with the Orb 9.57616204 Wong DECj-27 escaped with the Orb 10.57296114 caiman PoEn-27 escaped with the Orb 11.45985312 Wong FeDe-27 escaped with the Orb [?25h[?0c [?1051l[?1052l[?1060l[?1061l[?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 4m 52s 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 38m 37s 0 c) carss dcss-git L1 MDFw, D:1 80x 24 3m 18s 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 27s 0 e) dizzyto dcss-0.34 L3 MiBe, D:2 80x 24 0 f) flipcanvas dcss-git L6 VSBr, D:5 80x 24 39m 29s 0 g) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 6m 11s 0 h) gusrb771 dcss-git 80x 24 0 i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 2h 6m 0 j) LAYA dcss-git 80x 24 2h 3m 0 k) Mneme dcss-git L15 TeEE, D:13 80x 24 0 l) NaU dcss-git L4 DECj, D:2 80x 24 0 m) opg0315 dcss-git L11 PoEn, Lair:2 80x 24 22m 48s 0 n) rmtlsrmdhkd dcss-0.34 L4 MiFi, D:3 80x 24 0 o) Smeagol dcss-0.34 L10 HuFE, D:8 80x 24 1h 0m 0 (1-15 of 17) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 38m 37s 0
+ username: blase
+ idle_part: 38m 37s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) carss dcss-git L1 MDFw, D:1 80x 24 3m 18s 0
+ username: carss
+ idle_part: 3m 18s
+
+SKIP: 'carss' (1분 이상 잠수)
+match: e) dizzyto dcss-0.34 L3 MiBe, D:2 80x 24 0
+ username: dizzyto
+ idle_part: 
+
+SKIP: 'dizzyto' (최근 본 유저)
+match: f) flipcanvas dcss-git L6 VSBr, D:5 80x 24 39m 29s 0
+ username: flipcanvas
+ idle_part: 39m 29s
+
+SKIP: 'flipcanvas' (1분 이상 잠수)
+match: g) garlicwater dcss-git L15 DjCj, Lair:5 80x 24 6m 11s 0
+ username: garlicwater
+ idle_part: 6m 11s
+
+SKIP: 'garlicwater' (1분 이상 잠수)
+match: i) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 2h 6m 0
+ username: hjh4653
+ idle_part: 2h 6m
+
+SKIP: 'hjh4653' (1분 이상 잠수)
+match: k) Mneme dcss-git L15 TeEE, D:13 80x 24 0
+ username: Mneme
+ idle_part: 
+
+Target found: 'Mneme'
+
+🥇 유저 진입 (Mneme)
+buffer =  -7 --------- ---- --  [?25h[?0c  +  [?25l[?1c   Gear: 33/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  r - the +6 dagger of Spite (weapon) {chaos, rPois rF+ rC+ Int+3} p - the +1 mace of Dissatisfaction {chaos, +Blink} q - the +6 sling of the Damselfly {chaos, *Corrode Dex+3 SInv} A - the +4 rapier "Ox" {freeze, Will++}  C - a +3 scimitar of flaming  L - the +7 mace "Caer" {holy, Int+7 Dex+2}  Missiles (go to first with  (  )  j - 77 poisoned darts m - 22 boomerangs u - 6 curare-tipped darts {=F} E - 10 silver javelins R - 4 atropa-tipped darts T - 6 javelins W - 6 darts of disjunction Armour (go to first with  [  )  f - a scarf of invisibility (worn) s - the +5 kite shield of Insecurity (worn) {Regen+ Dex+4} x - +0 acid dragon scales (worn) U - a +2 hat of intelligence (worn) V - a +0 pair of gloves (worn)  b - an orb of mesmerism  [  Up  |  Down  ] select [  PgDn  |  >  ] page down [  PgUp  |  <  ] page up [  Esc  ] exit [  top  ]  f - a scarf of invisibility (worn) s 5 kite shield of Insecurity (worn) {Regen+ Dex+4}   x - +0 acid dragon scales (worn)   U - a +2 hat of intelligence (worn)   V - a +0 pair of gloves (worn)  b - an orb of mesmerism  B - +1 swamp dragon scales  O - +0 steam dragon scales P - +0 ice dragon scales [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git L2 MDFE, D:1 80x 24 5s 0 b) acidosis3 dcss-git 80x 24 0 c) blase dcss-git L13 TeAE, Lair:2 80x 24 52m 4s 0 d) byulorg dcss-0.16 L14 DsFE, D:10 80x 24 0 e) carss dcss-git L4 DsFi, D:2 80x 24 0 f) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 24s 0 g) dizzyto dcss-0.34 L11 MiBe, D:11 80x 24 0 h) flipcanvas dcss-git L6 VSBr, D:5 80x 24 52m 56s 0 i) garlicwater dcss-git L15 DjCj, D:13 80x 24 0 j) gusrb771 dcss-git L2 DgHu, D:1 80x 24 0 k) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 2h 19m 0 l) kaka10 dcss-git L8 TrBe, Ossuary 80x 24 0 m) LAYA dcss-git 80x 24 2h 16m 0 n) Mneme dcss-git 80x 24 0 o) opg0315 dcss-git L11 PoEn, Lair:2 80x 24 36m 15s 0 (1-15 of 18) Watch which game? ('?' for help) =>
+match: a) 7514dla dcss-git L2 MDFE, D:1 80x 24 5s 0
+ username: 7514dla
+ idle_part: 5s
+
+SKIP: '7514dla' (최근 본 유저)
+match: c) blase dcss-git L13 TeAE, Lair:2 80x 24 52m 4s 0
+ username: blase
+ idle_part: 52m 4s
+
+SKIP: 'blase' (1분 이상 잠수)
+match: d) byulorg dcss-0.16 L14 DsFE, D:10 80x 24 0
+ username: byulorg
+ idle_part: 
+
+Target found: 'byulorg'
+
+🥇 유저 진입 (byulorg)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git L5 MDFi, D:3 80x 24 0 b) acidosis3 dcss-git L2 TrBe, D:1 80x 24 0 c) blase dcss-git L13 TeAE, Lair:2 80x 24 1h 24m 0 d) byulorg dcss-0.16 L16 DsFE, Snake:1 80x 24 30s 2 e) caiman dcss-git L13 DsEn, Lair:5 80x 24 0 f) carss dcss-git 80x 24 0 g) Chimus dcss-git L9 SpEn, D:8 80x 24 0 h) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 9s 0 i) flipcanvas dcss-git L6 VSBr, D:5 80x 24 1h 25m 0 j) garlicwater dcss-git L18 DjCj, Snake:4 80x 24 0 k) gusrb771 dcss-git L11 DgHu, IceCv 80x 24 0 l) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 2h 51m 0 m) kaka10 dcss-git L8 TrBe, Sewer 80x 24 15m 1s 0 n) LAYA dcss-git 80x 24 2h 49m 0 o) majeyal dcss-git L14 DEHW, D:13 80x 24 0 (1-15 of 21) Watch which game? ('?' for help) =>
+match: a) 7514dla dcss-git L5 MDFi, D:3 80x 24 0
+ username: 7514dla
+ idle_part: 
+
+SKIP: '7514dla' (최근 본 유저)
+match: b) acidosis3 dcss-git L2 TrBe, D:1 80x 24 0
+ username: acidosis3
+ idle_part: 
+
+Target found: 'acidosis3'
+
+🥇 유저 진입 (acidosis3)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) acidosis3 dcss-git L9 TrBe, D:6 80x 24 31s 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 1h 28m 0 c) byulorg dcss-0.16 L16 DsFE, Snake:2 80x 24 0 d) caiman dcss-git L14 DsEn, D:8 80x 24 0 e) carss dcss-git L6 DsFi, D:4 80x 24 0 f) Chimus dcss-git L10 SpEn, D:8 80x 24 7s 0 g) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 10s 0 h) flipcanvas dcss-git L6 VSBr, D:5 80x 24 1h 29m 0 i) garlicwater dcss-git L18 DjCj, Shoals:1 80x 24 0 j) gusrb771 dcss-git L6 DgHu, Sewer 80x 24 0 k) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 2h 56m 0 l) kaka10 dcss-git L8 TrBe, Sewer 80x 24 19m 32s 0 m) LAYA dcss-git 80x 24 2h 53m 0 n) majeyal dcss-git L14 DEHW, D:13 80x 24 13s 0 o) Mumonspawn dcss-git L16 OnBe, Orc:2 80x 24 10s 0 (1-15 of 20) Watch which game? ('?' for help) =>
+match: a) acidosis3 dcss-git L9 TrBe, D:6 80x 24 31s 0
+ username: acidosis3
+ idle_part: 31s
+
+SKIP: 'acidosis3' (최근 본 유저)
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 1h 28m 0
+ username: blase
+ idle_part: 1h 28m
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) byulorg dcss-0.16 L16 DsFE, Snake:2 80x 24 0
+ username: byulorg
+ idle_part: 
+
+SKIP: 'byulorg' (최근 본 유저)
+match: d) caiman dcss-git L14 DsEn, D:8 80x 24 0
+ username: caiman
+ idle_part: 
+
+Target found: 'caiman'
+
+🥇 유저 진입 (caiman)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-0.34 L7 MDFi, D:5 80x 24 0 b) acidosis3 dcss-git L9 MiGl, D:7 80x 24 0 c) blase dcss-git L13 TeAE, Lair:2 80x 24 1h 37m 0 d) byulorg dcss-0.16 L17 DsFE, Snake:5 80x 24 0 e) caiman dcss-git L14 DsEn, D:14 80x 24 30s 2 f) carss dcss-git 80x 24 43s 0 g) Chimus dcss-git L10 SpEn, D:9 80x 24 5s 0 h) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 19s 0 i) flipcanvas dcss-git L6 VSBr, D:5 80x 24 1h 38m 0 j) garlicwater dcss-git L19 DjCj, Shoals:2 80x 24 0 k) goodsiyeol dcss-0.34 L7 MiFi, Sewer 80x 24 0 l) gusrb771 dcss-git 80x 24 0 m) hjh4653 dcss-git L14 MiFi, Orc:2 80x 24 3h 4m 0 n) kaka10 dcss-git L8 TrBe, Sewer 80x 24 28m 11s 0 o) LAYA dcss-git 80x 24 3h 2m 0 (1-15 of 24) Watch which game? ('?' for help) =>
+match: a) 7514dla dcss-0.34 L7 MDFi, D:5 80x 24 0
+ username: 7514dla
+ idle_part: 
+
+Target found: '7514dla'
+
+🥇 유저 진입 (7514dla)
+buffer =  r body disappears without a glow. -4 --- -------- -  --more--    Gear: 13/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  a - a +0 war axe (weapon)  Armour (go to first with  [  )  b - a +0 cloak (worn) c - a +0 buckler (worn) e - a +0 chain mail (worn) i - a +0 pair of boots (worn) k - a +0 pair of gloves (worn)  h - a +2 robe of positive energy m - a scarf of harm Jewellery (go to first with  "=  )  g - the ring "Ziex" (worn) {rF+ Dex+4 SInv} j - the amulet of Vitality (worn) {Regen++ RegenMP++} l - a ring of protection from fire (worn)  d - a +6 ring of strength f - an amulet of magic regeneration   Goodbye, 7514dla. 5561 7514dla the Severer (level 10, -4/77 HPs) Began as a Mountain Dwarf Fighter on Feb 2, 2026. Was a Believer of Nemelex Xobeh. Slain by a freezing wraith (13 damage) [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-0.34 80x 24 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 1h 49m 0 c) caiman dcss-git L15 DsEn, Orc:1 80x 24 0 d) carss dcss-git L8 DrFi, D:5 80x 24 0 e) Chimus dcss-git L11 SpEn, Necropolis 80x 24 0 f) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 18s 0 g) flipcanvas dcss-git L6 VSBr, D:5 80x 24 1h 49m 0 h) garlicwater dcss-git L1 DjCj, D:1 80x 24 0 i) hjh4653 dcss-git L16 MiFi, Spider:1 80x 24 0 j) kaka10 dcss-git L8 TrBe, Sewer 80x 24 39m 41s 0 k) LAYA dcss-git 80x 24 3h 13m 0 l) majeyal dcss-git L14 DEHW, Gauntlet 80x 24 20s 0 m) Mneme dcss-git 80x 24 14s 0 n) Mumonspawn dcss-git L19 OnBe, Elf:3 80x 24 0 o) namsansan dcss-git L15 DrWn, D:15 80x 24 0 (1-15 of 21) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 1h 49m 0
+ username: blase
+ idle_part: 1h 49m
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) caiman dcss-git L15 DsEn, Orc:1 80x 24 0
+ username: caiman
+ idle_part: 
+
+SKIP: 'caiman' (최근 본 유저)
+match: d) carss dcss-git L8 DrFi, D:5 80x 24 0
+ username: carss
+ idle_part: 
+
+Target found: 'carss'
+
+🥇 유저 진입 (carss)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) 7514dla dcss-git 80x 24 5m 58s 0 b) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 26m 0 c) carss dcss-git L14 DrFi, Lair:4 80x 24 30s 1 d) Chimus dcss-git L12 SpEn, D:11 80x 24 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 0 f) dosmif dcss-git L5 MiBe, D:3 80x 24 26s 0 g) drogi3814 dcss-git L1 KoBr, D:1 80x 24 0 h) Duken00 dcss-git L2 DsGl, D:1 80x 24 0 i) garlicwater dcss-git L7 DjCj, Sewer 80x 24 0 j) gusrb771 dcss-git L6 DgHu, D:4 80x 24 0 k) hjh4653 dcss-git L20 MiFi, Vaults:4 80x 24 29s 0 l) kumaya1109 dcss-git L8 ReFi, D:6 80x 24 1m 48s 0 m) LAYA dcss-git 80x 24 3h 51m 0 n) leafmold dcss-git L5 DsIE, D:4 80x 24 0 o) M41den44 dcss-git L27 GnCj, Abyss:5 80x 24 0 (1-15 of 27) Watch which game? ('?' for help) =>
+match: b) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 26m 0
+ username: blase
+ idle_part: 2h 26m
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) carss dcss-git L14 DrFi, Lair:4 80x 24 30s 1
+ username: carss
+ idle_part: 30s
+
+SKIP: 'carss' (최근 본 유저)
+match: d) Chimus dcss-git L12 SpEn, D:11 80x 24 0
+ username: Chimus
+ idle_part: 
+
+Target found: 'Chimus'
+
+🥇 유저 진입 (Chimus)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 33m 0 b) c22 dcss-git-desceL19 FoFi, Elf:3 80x 24 0 c) caiman dcss-git L16 DsEn, Spider:3 80x 24 0 d) Chimus dcss-git L13 SpEn, D:10 80x 24 30s 2 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 30s 0 f) dosmif dcss-git L9 MiBe, D:6 80x 24 12s 0 g) drogi3814 dcss-git L1 ReRe, D:1 80x 24 5s 0 h) Duken00 dcss-git L4 DsGl, D:3 80x 24 0 i) garlicwater dcss-git L9 DjCj, D:7 80x 24 20s 0 j) gusrb771 dcss-git L10 DgHu, D:9 80x 24 26s 0 k) hjh4653 dcss-git L20 MiFi, Vaults:4 80x 24 0 l) kumaya1109 dcss-git L8 ReFi, D:6 80x 24 9m 14s 0 m) LAYA dcss-git 80x 24 3h 58m 0 n) leafmold dcss-git L3 DsIE, D:2 80x 24 0 o) M41den44 dcss-git 80x 24 2m 29s 0 (1-15 of 25) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 33m 0
+ username: blase
+ idle_part: 2h 33m
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) caiman dcss-git L16 DsEn, Spider:3 80x 24 0
+ username: caiman
+ idle_part: 
+
+SKIP: 'caiman' (최근 본 유저)
+match: d) Chimus dcss-git L13 SpEn, D:10 80x 24 30s 2
+ username: Chimus
+ idle_part: 30s
+
+SKIP: 'Chimus' (최근 본 유저)
+match: f) dosmif dcss-git L9 MiBe, D:6 80x 24 12s 0
+ username: dosmif
+ idle_part: 12s
+
+예비 대기 유저: 'dosmif'
+match: g) drogi3814 dcss-git L1 ReRe, D:1 80x 24 5s 0
+ username: drogi3814
+ idle_part: 5s
+
+match: h) Duken00 dcss-git L4 DsGl, D:3 80x 24 0
+ username: Duken00
+ idle_part: 
+
+Target found: 'Duken00'
+
+🥇 유저 진입 (Duken00)
+buffer =  -1  /34 --- Will+  Fly  --more--    Gear: 8/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  a - a +0 war axe (weapon)  Missiles (go to first with  (  )  b - 9 poisoned darts  d - 3 throwing nets (quivered)  e - a javelin Armour (go to first with  [  )  c - a +1 helmet (worn) f - a +0 ring mail (worn) h - the +2 pair of boots of a Labyrinth {+Blink rF+}  Jewellery (go to first with  "=  )  g - a ring of protection from cold   Goodbye, Duken00. 126 Duken00 the Chopper (level 4, -1/34 HPs) Began as a Demonspawn Gladiator on Feb 2, 2026. Succumbed to a gnoll's poison ... on level 3 of the Dungeon. The game lasted 00:10:21 (2525 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong DEEE-27 escaped with the Orb 9.57616204 Wong DECj-27 escaped with the Orb 10.57296114 caiman PoEn-27 escaped with the Orb 11.45985312 Wong FeDe-27 escaped with the Orb 12.44522237 Wong DjCj-27 escaped with the Orb 13.44367709 catclaw CoHu-27 escaped with the Orb 14.43778185 sasameki GnEE-27 escaped with the Orb [?25h[?0c [?1051l[?1052l[?1060l[?1061l[?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 35m 0 b) c22 dcss-git-desceL19 FoFi, Elf:3 80x 24 0 c) caiman dcss-git L16 DsEn, Spider:3 80x 24 0 d) Chimus dcss-git L13 SpEn, D:10 80x 24 0 e) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 14s 0 f) dosmif dcss-git L9 MiBe, D:7 80x 24 1 g) drogi3814 dcss-git L2 ReRe, D:1 80x 24 0 h) garlicwater dcss-git L10 DjCj, D:8 80x 24 0 i) gusrb771 dcss-git L10 DgHu, D:9 80x 24 0 j) hjh4653 dcss-git L21 MiFi, Elf:2 80x 24 0 k) kumaya1109 dcss-git L8 ReFi, D:6 80x 24 10m 58s 0 l) LAYA dcss-git 80x 24 4h 0m 0 m) leafmold dcss-git L5 DsIE, D:3 80x 24 0 n) M41den44 dcss-git 80x 24 4m 13s 0 o) majeyal dcss-git L16 DEHW, Orc:1 80x 24 3m 44s 0 (1-15 of 22) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 35m 0
+ username: blase
+ idle_part: 2h 35m
+
+SKIP: 'blase' (1분 이상 잠수)
+match: c) caiman dcss-git L16 DsEn, Spider:3 80x 24 0
+ username: caiman
+ idle_part: 
+
+SKIP: 'caiman' (최근 본 유저)
+match: d) Chimus dcss-git L13 SpEn, D:10 80x 24 0
+ username: Chimus
+ idle_part: 
+
+SKIP: 'Chimus' (최근 본 유저)
+match: f) dosmif dcss-git L9 MiBe, D:7 80x 24 1
+ username: dosmif
+ idle_part: 
+
+Target found: 'dosmif'
+
+🥇 유저 진입 (dosmif)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 43m 0 b) caiman dcss-git L17 DsEn, Spider:4 80x 24 1 c) Chimus dcss-git L13 SpEn, D:9 80x 24 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 24s 0 e) dosmif dcss-git L10 MiBe, D:7 80x 24 30s 0 f) drogi3814 dcss-git L3 SpNe, D:2 80x 24 0 g) Durumi dcss-git L3 DrIE, D:2 80x 24 0 h) garlicwater dcss-git L7 DjCj, D:4 80x 24 0 i) gusrb771 dcss-git L12 DgHu, Necropolis 80x 24 0 j) hjh4653 dcss-git L22 MiFi, Desolation 80x 24 0 k) kumaya1109 dcss-git L10 ReFi, D:9 80x 24 0 l) LAYA dcss-git 80x 24 4h 7m 0 m) leafmold dcss-git L7 DsIE, D:5 80x 24 0 n) M41den44 dcss-git 80x 24 11m 53s 0 o) majeyal dcss-git L16 DEHW, Orc:1 80x 24 0 (1-15 of 25) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 43m 0
+ username: blase
+ idle_part: 2h 43m
+
+SKIP: 'blase' (1분 이상 잠수)
+match: b) caiman dcss-git L17 DsEn, Spider:4 80x 24 1
+ username: caiman
+ idle_part: 
+
+Target found: 'caiman'
+
+🥇 유저 진입 (caiman)
+
+잠수 ⏱ 30초 경과. 탈출
+buffer = [?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 45m 0 b) caiman dcss-git L17 DsEn, Swamp:1 80x 24 30s 1 c) Chimus dcss-git L13 SpEn, D:9 80x 24 0 d) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 26s 0 e) dosmif dcss-git L10 MiBe, D:7 80x 24 0 f) drogi3814 dcss-git L4 SpNe, D:3 80x 24 0 g) Durumi dcss-git L5 DrIE, D:4 80x 24 0 h) garlicwater dcss-git L8 DjCj, D:5 80x 24 0 i) gusrb771 dcss-git L12 DgHu, Lair:2 80x 24 0 j) hjh4653 dcss-git L22 MiFi, Elf:3 80x 24 0 k) kumaya1109 dcss-git L11 ReFi, D:9 80x 24 0 l) LAYA dcss-git 80x 24 4h 9m 0 m) leafmold dcss-git L2 DsIE, D:1 80x 24 0 n) M41den44 dcss-git 80x 24 13m 55s 0 o) majeyal dcss-git L16 DEHW, Lair:2 80x 24 34s 0 (1-15 of 25) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L13 TeAE, Lair:2 80x 24 2h 45m 0
+ username: blase
+ idle_part: 2h 45m
+
+SKIP: 'blase' (1분 이상 잠수)
+match: b) caiman dcss-git L17 DsEn, Swamp:1 80x 24 30s 1
+ username: caiman
+ idle_part: 30s
+
+SKIP: 'caiman' (최근 본 유저)
+match: c) Chimus dcss-git L13 SpEn, D:9 80x 24 0
+ username: Chimus
+ idle_part: 
+
+SKIP: 'Chimus' (최근 본 유저)
+match: e) dosmif dcss-git L10 MiBe, D:7 80x 24 0
+ username: dosmif
+ idle_part: 
+
+SKIP: 'dosmif' (최근 본 유저)
+match: f) drogi3814 dcss-git L4 SpNe, D:3 80x 24 0
+ username: drogi3814
+ idle_part: 
+
+Target found: 'drogi3814'
+
+🥇 유저 진입 (drogi3814)
+buffer =  -8  /39 - ----- -  --more--    Gear: 9/52 gear slots (Left/Right to switch category)  Hand Weapons (go to first with  )  )  g - a +2 flail of holy wrath (weapon)  a - a +0 dagger Missiles (go to first with  (  )  e - 5 poisoned darts Armour (go to first with  [  )  i - a +2 robe of cold resistance (worn)  b - a +1 robe Jewellery (go to first with  "=  )  c - a +6 ring of strength (worn) d - an amulet of regeneration (worn) f - a +6 ring of strength (worn)  h - an amulet of magic regeneration   Goodbye, drogi3814. 1969 drogi3814 the Covert (level 9, -8/39 HPs) Began as a Spriggan Necromancer on Feb 2, 2026. Mangled by a gnoll sergeant ... wielding a +0 trident of entangling (12 damage) ... on level 5 of the Dungeon. The game lasted 00:24:37 (4442 turns). Best Crawlers - 1.78002506 tlatlagkau OpIE-27 escaped with the Orb 2.69709879 caiman DECj-27 escaped with the Orb 3.63956552 tlatlagkau DjAl-27 escaped with the Orb 4.63227827 tlatlagkau DsAl-27 escaped with the Orb 5.60797181 caiman DECj-27 escaped with the Orb 6.60586820 Wong DECj-27 escaped with the Orb 7.60491095 tlatlagkau FeSh-27 escaped with the Orb 8.59598595 Wong DEEE-27 escaped with the Orb 9.57616204 Wong DECj-27 escaped with the Orb 10.57296114 caiman PoEn-27 escaped with the Orb 11.45985312 Wong FeDe-27 escaped with the Orb 12.44522237 Wong DjCj-27 escaped with the Orb [?25h[?0c [?1051l[?1052l[?1060l[?1061l[?1h=%G[?1h=[?1049h ]104 [?7h ### dgamelaunch 1.5.1 - network console game launcher The following games are in progress: User Game Where Term Idle Viewers a) blase dcss-git L13 TeAE, Lair:2 80x 24 3h 2m 0 b) Chimus dcss-git L13 SpEn, Orc:2 80x 24 0 c) CNCPublicChat dcss-0.31-spriL1 TrCK, D 80x 24 0 d) Durumi dcss-git L12 DrIE, Lair:4 80x 24 1 e) garlicwater dcss-git L8 DjCj, D:5 80x 24 0 f) gusrb771 dcss-git L6 DgHu, Necropolis 80x 24 0 g) hjh4653 dcss-git L23 MiFi, Depths:2 80x 24 3m 54s 0 h) hslovejs dcss-git L5 CoFi, D:3 80x 24 0 i) kaka10 dcss-git L8 TrBe, D:5 80x 24 0 j) LAYA dcss-git 80x 24 4h 26m 0 k) leafmold dcss-git L2 DsIE, D:1 80x 24 0 l) M41den44 dcss-git 80x 24 31m 0s 0 m) majeyal dcss-git L16 DEHW, Swamp:4 80x 24 0 n) Mneme dcss-git L17 DsEE, Swamp:1 80x 24 0 o) opg0315 dcss-git L16 PoEn, D:15 80x 24 0 (1-15 of 22) Watch which game? ('?' for help) =>
+match: a) blase dcss-git L13 TeAE, Lair:2 80x 24 3h 2m 0
+ username: blase
+ idle_part: 3h 2m
+
+SKIP: 'blase' (1분 이상 잠수)
+match: b) Chimus dcss-git L13 SpEn, Orc:2 80x 24 0
+ username: Chimus
+ idle_part: 
+
+SKIP: 'Chimus' (최근 본 유저)
+match: d) Durumi dcss-git L12 DrIE, Lair:4 80x 24 1
+ username: Durumi
+ idle_part: 
+
+Target found: 'Durumi'
+
+🥇 유저 진입 (Durumi)

@@ -69,11 +69,11 @@
           }
         ];
       };
-      "labtop" = nixpkgs.lib.nixosSystem {
+      "laptop" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         specialArgs = { inherit inputs; };
         modules = [
-          ./labtop/configuration.nix
+          ./laptop/configuration.nix
           ./modules/core.nix
           ./modules/game.nix
           nixos-hardware.nixosModules.lenovo-ideapad-16ach6
@@ -85,7 +85,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.extraSpecialArgs = { inherit inputs; };
-            home-manager.users.junyeong = import ./labtop/home.nix;
+            home-manager.users.junyeong = import ./laptop/home.nix;
           }
         ];
       };

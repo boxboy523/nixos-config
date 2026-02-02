@@ -2,7 +2,6 @@
 
 {
   imports = [
-    ./hypr.nix
     ./dark-mode.nix
   ];
   
@@ -24,6 +23,9 @@
       qbittorrent
       nix-index
       python3
+      gsettings-desktop-schemas
+      glib
+      gtk3
     ];
 
     sessionVariables = {
@@ -38,6 +40,11 @@
       EMACSDIR = "$HOME/.config/emacs";
       XCURSOR_THEME = "Adwaita";
       XCURSOR_SIZE = 24;
+      MOZ_ENABLE_WAYLAND = "1";
+      GTK_USE_PORTAL = "1";
+      XDG_CURRENT_DESKTOP = "Hyprland";
+      XDG_SESSION_TYPE = "wayland";
+      XDG_DATA_DIRS = "${pkgs.gsettings-desktop-schemas}/share/gsettings-schemas/${pkgs.gsettings-desktop-schemas.name}:${pkgs.gtk3}/share/gsettings-schemas/${pkgs.gtk3.name}:$XDG_DATA_DIRS";
     };
 
     sessionPath = [
@@ -74,11 +81,6 @@
       };
     };
 
-    starship = {
-      enable = true;
-      enableZshIntegration = false;
-    };
-    
     zsh = {
       enable = true;
       enableCompletion = true;
@@ -86,17 +88,12 @@
       syntaxHighlighting.enable = true; # 문법 하이라이팅
       
       shellAliases = {
-        update = "sudo nixos-rebuild switch --flake ~/nixos-config";
+        update = "sudo nixos-rebuild switch --flake /storage/conf/nixos-config";
         et = "emacsclient -t";
         ls = "eza";
       };
-
-      oh-my-zsh = {
-        enable = true;
-        plugins = [ "git" "sudo" "docker" ];
-      };
-
-      initExtra = builtins.readFile ../../res/.zshrc;
+      initContent = builtins.readFile ../../res/.zshrc;
+      dotDir = "${config.xdg.configHome}/zsh";
     };
 
     kitty = {
@@ -106,6 +103,11 @@
         name = "monospace";
         size = 14;
       };
+    };
+
+    starship = {
+      enable = true;
+      enableZshIntegration = false;
     };
   };
 
@@ -133,7 +135,7 @@
     enable = true;
     nix-direnv.enable = true;
   };
-  
+
   xdg.userDirs = {
     enable = true;
     createDirectories = true;

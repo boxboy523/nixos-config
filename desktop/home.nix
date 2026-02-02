@@ -1,10 +1,19 @@
-{ config, pkgs, ... }:
-{
-  imports = [ ../modules/home/default.nix ];
+{ config, pkgs, inputs, ... }:
+let
+  desktopHyprConfig = pkgs.runCommand "desktop-hypr-config" { } ''
+    mkdir -p $out
 
-  home.file.".config/hypr/monitor.conf".source =
-    config.lib.file.mkOutOfStoreSymlink
-      "${config.home.homeDirectory}/.config/hypr/monitors/desktop.conf";
+    cp -r ${inputs.hypr-conf}/* $out/
+    chmod -R +w $out
+      
+    cp $out/monitors/desktop.conf $out/monitor.conf
+    rm -rf $out/monitors
+  '';
+in
+{
+  imports = [ ../modules/home/default.nix ../modules/home/hypr.nix ];
+  
+  my.hyprland.configPackage = desktopHyprConfig;
 
   home.file = {
     "downloads".source = config.lib.file.mkOutOfStoreSymlink "/storage/downloads";
