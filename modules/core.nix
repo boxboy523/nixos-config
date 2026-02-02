@@ -54,7 +54,7 @@
 
     fontconfig = {
       enable = true;
-      localConf = builtins.readFile ./res/fonts.conf;
+      localConf = builtins.readFile ../res/fonts.conf;
     };
   };
 

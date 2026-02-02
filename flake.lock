@@ -3,14 +3,17 @@
     "emacs-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1769797150,
-        "narHash": "sha256-Fp/SQu1Dgj5eYSqOIX5b90sOEbxKaiXU0pbq6/3StDQ=",
-        "path": "/storage/conf/emacs-config",
-        "type": "path"
+        "lastModified": 1769796736,
+        "narHash": "sha256-AAYFJnREVFQMeg3wF/RzNvTMwjccoZUFrnHTM37YK8c=",
+        "owner": "boxboy523",
+        "repo": "emacs-config",
+        "rev": "432d9acf532eb901a773cd96b69cb1f97de82b0f",
+        "type": "github"
       },
       "original": {
-        "path": "/storage/conf/emacs-config",
-        "type": "path"
+        "owner": "boxboy523",
+        "repo": "emacs-config",
+        "type": "github"
       }
     },
     "hahmlet": {
@@ -48,11 +51,11 @@
     "hypr-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1769522637,
-        "narHash": "sha256-ELuPKGTbbnfoDunTgw7jMc+yEQSYqvarqYAEVmqmTRc=",
+        "lastModified": 1769941801,
+        "narHash": "sha256-580p9T4fBRZCO2DFsZdI0c0xMH61X+gq9u1MtViEJpA=",
         "owner": "boxboy523",
         "repo": "hypr",
-        "rev": "8d1d5341bea00aa71d54e301663659058dbb0be0",
+        "rev": "fbc8bc7338bd14d254a1be719b89c8326f174590",
         "type": "github"
       },
       "original": {
@@ -87,6 +90,22 @@
       "original": {
         "owner": "moonspam",
         "repo": "NanumSquareNeo",
+        "type": "github"
+      }
+    },
+    "nixos-hardware": {
+      "locked": {
+        "lastModified": 1769302137,
+        "narHash": "sha256-QEDtctEkOsbx8nlFh4yqPEOtr4tif6KTqWwJ37IM2ds=",
+        "owner": "NixOS",
+        "repo": "nixos-hardware",
+        "rev": "a351494b0e35fd7c0b7a1aae82f0afddf4907aa8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "master",
+        "repo": "nixos-hardware",
         "type": "github"
       }
     },
@@ -130,6 +149,7 @@
         "hypr-conf": "hypr-conf",
         "monoplex": "monoplex",
         "nanum-neo": "nanum-neo",
+        "nixos-hardware": "nixos-hardware",
         "nixpkgs": "nixpkgs",
         "rofi-conf": "rofi-conf",
         "waybar-conf": "waybar-conf"

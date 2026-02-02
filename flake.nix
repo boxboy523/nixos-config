@@ -8,11 +8,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nixos-hardware.url = "github:NixOS/nixos-hardware/master"
+    nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     
     hypr-conf = {
       url = "github:boxboy523/hypr";
-      #url = "path:/home/junyeong/config/hypr";
+      #url = "path:/storage/config/hypr";
       flake = false;
     };
 
@@ -48,7 +48,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: {
+  outputs = { self, nixpkgs, home-manager, nixos-hardware, ... }@inputs: {
     nixosConfigurations = {
       "desktop" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
@@ -56,6 +56,7 @@
         modules = [
           ./desktop/configuration.nix
           ./modules/core.nix
+          ./modules/game.nix
           {
             nixpkgs.config.allowUnfree = true;
           }
@@ -64,7 +65,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.extraSpecialArgs = { inherit inputs; };
-            home-manager.users.junyeong = import ./modules/home.nix;
+            home-manager.users.junyeong = import ./desktop/home.nix;
           }
         ];
       };
@@ -74,6 +75,7 @@
         modules = [
           ./labtop/configuration.nix
           ./modules/core.nix
+          ./modules/game.nix
           nixos-hardware.nixosModules.lenovo-ideapad-16ach6
           {
             nixpkgs.config.allowUnfree = true;
@@ -83,7 +85,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.extraSpecialArgs = { inherit inputs; };
-            home-manager.users.junyeong = import ./modules/home.nix;
+            home-manager.users.junyeong = import ./labtop/home.nix;
           }
         ];
       };

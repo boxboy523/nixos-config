@@ -93,7 +93,7 @@
         plugins = [ "git" "sudo" "docker" ];
       };
 
-      initContent = builtins.readFile ./res/.zshrc;
+      initContent = builtins.readFile ../../res/.zshrc;
     };
 
     kitty = {
@@ -104,24 +104,6 @@
         size = 14;
       };
     };
-  };
-
-  home.file = {
-    ".config/kime/config.yaml".source = ./res/kime_config.yaml;
-    ".config/nixpkgs".source = ./res/nixpkgs;
-    "downloads".source = config.lib.file.mkOutOfStoreSymlink "/storage/downloads";
-    "documents".source = config.lib.file.mkOutOfStoreSymlink "/storage/documents";
-    "develop".source = config.lib.file.mkOutOfStoreSymlink "/storage/develop";
-    "games".source = config.lib.file.mkOutOfStoreSymlink "/storage/games";
-    "conf".source = config.lib.file.mkOutOfStoreSymlink "/storage/conf";
-    "music".source     = config.lib.file.mkOutOfStoreSymlink "/storage/music";
-    "pictures".source  = config.lib.file.mkOutOfStoreSymlink "/storage/pictures";
-    "videos".source    = config.lib.file.mkOutOfStoreSymlink "/storage/videos";
-    "desktop".source     = config.lib.file.mkOutOfStoreSymlink "/storage/desktop";
-    "public".source  = config.lib.file.mkOutOfStoreSymlink "/storage/public";
-    "templates".source    = config.lib.file.mkOutOfStoreSymlink "/storage/templates";
-    ".cache".source = config.lib.file.mkOutOfStoreSymlink "/storage/cache";
-    ".local/share".source = config.lib.file.mkOutOfStoreSymlink "/storage/local/share";
   };
 
   programs.emacs = {
@@ -162,10 +144,8 @@
     templates = "${config.home.homeDirectory}/templates";
   };
 
-  xdg = {
-    enable = true;
-    cacheHome = "/storage/cache";
-    dataHome  = "/storage/local/share";
-    stateHome = "/storage/local/state";
+  home.file = {
+    ".config/kime/config.yaml".source = ../../res/kime_config.yaml;
+    ".config/nixpkgs".source = ../../res/nixpkgs;
   };
 }

@@ -11,12 +11,7 @@
   ];
   
   xdg.configFile = {
-    "hypr".source = pkgs.runCommand "hypr-vm-config" {} ''
-    mkdir -p $out
-    cp -r ${inputs.hypr-conf}/* $out/
-
-    chmod -R +w $out
-    '';
+    "hypr".source = inputs.hypr-conf;
     "waybar".source = inputs.waybar-conf;
     "rofi".source = inputs.rofi-conf;
   };
