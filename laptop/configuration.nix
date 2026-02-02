@@ -15,7 +15,7 @@
     gfxmodeEfi = "2560x1600";
   };
 
-  networking.hostName = "labtop"; # Define your hostname.
+  networking.hostName = "laptop"; # Define your hostname.
 }
 
 

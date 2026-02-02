@@ -74,7 +74,10 @@
       };
     };
 
-    starship.enable = true;
+    starship = {
+      enable = true;
+      enableZshIntegration = false;
+    };
     
     zsh = {
       enable = true;

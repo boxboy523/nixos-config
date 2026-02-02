@@ -85,7 +85,6 @@
   nix.settings.trusted-users = [ "root" "junyeong" ];
   environment.systemPackages = with pkgs; [
     vim
-    git
     wget
     curl
     pkgs.mergerfs
