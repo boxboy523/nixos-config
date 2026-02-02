@@ -16,6 +16,7 @@
   };
 
   networking.hostName = "laptop"; # Define your hostname.
+
 }
 
 

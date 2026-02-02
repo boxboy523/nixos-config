@@ -147,6 +147,12 @@
     templates = "${config.home.homeDirectory}/templates";
   };
 
+  xdg.portal = {
+    enable = true;
+    extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+    config.common.default = "gtk";
+  };
+  
   home.file = {
     ".config/kime/config.yaml".source = ../../res/kime_config.yaml;
     ".config/nixpkgs".source = ../../res/nixpkgs;
