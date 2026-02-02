@@ -81,6 +81,8 @@
     initialPassword = "password";
     shell = pkgs.zsh;
   };
+
+  users.mutableUsers = true;
   
   nix.settings.trusted-users = [ "root" "junyeong" ];
   environment.systemPackages = with pkgs; [
@@ -116,7 +118,7 @@
   };
   nix.settings.auto-optimise-store = true;
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-  system.stateVersion = "25.11"; 
+  system.stateVersion = "25.11";
 }
 
 

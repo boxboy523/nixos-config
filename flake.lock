@@ -19,7 +19,7 @@
     "hahmlet": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-eh3OykXPbCYNk3w/W2jBciwZTXhWhIlm/cnh1nWfHWY=",
+        "narHash": "sha256-QpPiq7UWIBnZW/dHxocSt0LYkqsEuNhRNssKyEdw8GU=",
         "type": "file",
         "url": "https://github.com/hyper-type/hahmlet"
       },

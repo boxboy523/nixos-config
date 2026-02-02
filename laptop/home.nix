@@ -1,6 +1,6 @@
 { config, pkgs, inputs, ... }:
 let
-  desktopHyprConfig = pkgs.runCommand "laptop-hypr-config" { } ''
+  laptopHyprConfig = pkgs.runCommand "laptop-hypr-config" { } ''
     mkdir -p $out
 
     cp -r ${inputs.hypr-conf}/* $out/
@@ -13,12 +13,7 @@ in
 {
   imports = [ ../modules/home/default.nix ../modules/home/hypr.nix ];
   
-  my.hyprland.configPackage = desktopHyprConfig;
-
-
-  home.file.".config/hypr/monitor.conf".source =
-    config.lib.file.mkOutOfStoreSymlink
-      "${config.home.homeDirectory}/.config/hypr/monitors/labtop.conf";
+  my.hyprland.configPackage = laptopHyprConfig;
 
   home.packages = with pkgs; [
     # 1. 하드웨어 제어 유틸 (Hyprland 단축키 연동용)
