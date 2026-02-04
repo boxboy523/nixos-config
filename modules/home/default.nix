@@ -26,6 +26,7 @@
       gsettings-desktop-schemas
       glib
       gtk3
+      nodejs
     ];
 
     sessionVariables = {

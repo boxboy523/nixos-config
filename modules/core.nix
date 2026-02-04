@@ -74,6 +74,24 @@
     pulse.enable = true;
   };
 
+  services.keyd = {
+    enable = true;
+    keyboards = {
+      default = {
+        ids = [ "*" ]; # 모든 키보드에 적용
+        settings = {
+          main = {
+            # 캡스락: 짧게 치면 ESC, 길게 누르면 Ctrl (Emacs/Vim 국룰 세팅)
+            capslock = "overload(control, esc)";
+            
+            # (선택사항) 만약 탭도 오버로드 하고 싶다면? (탭: 탭, 길게: Ctrl)
+            # tab = "overload(control, tab)"; 
+          };
+        };
+      };
+    };
+  };
+
   users.users.junyeong = {
     isNormalUser = true;
     description = "Junyeong Kim";
