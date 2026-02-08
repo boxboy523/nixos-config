@@ -11,13 +11,13 @@
 
   i18n = {
     defaultLocale = "en_US.UTF-8";
-    
+
     inputMethod = {
       enable = true;
       type = "kime";
       kime.iconColor = "Black";
     };
-    
+
     extraLocaleSettings = {
       LC_ADDRESS = "ko_KR.UTF-8";
       LC_IDENTIFICATION = "ko_KR.UTF-8";
@@ -36,6 +36,8 @@
       nerd-fonts.terminess-ttf
       noto-fonts
       noto-fonts-cjk-sans
+      nanum
+      nanum-gothic-coding
       font-awesome
       (pkgs.runCommand "monoplex-font" { } ''
         mkdir -p $out/share/fonts/truetype
@@ -83,9 +85,9 @@
           main = {
             # 캡스락: 짧게 치면 ESC, 길게 누르면 Ctrl (Emacs/Vim 국룰 세팅)
             capslock = "overload(control, esc)";
-            
+            tab = "overload(meta, tab)";
             # (선택사항) 만약 탭도 오버로드 하고 싶다면? (탭: 탭, 길게: Ctrl)
-            # tab = "overload(control, tab)"; 
+            # tab = "overload(control, tab)";
           };
         };
       };
@@ -101,7 +103,7 @@
   };
 
   users.mutableUsers = true;
-  
+
   nix.settings.trusted-users = [ "root" "junyeong" ];
   environment.systemPackages = with pkgs; [
     vim
@@ -114,8 +116,15 @@
     libtool
     pkg-config
     libvterm
+    keyd
+    atool
+    unzip
+    gnutar
+    unrar
+    p7zip
+    unrar
   ];
-  
+
   services.openssh.enable = true;
 
   programs = {
@@ -128,7 +137,7 @@
     extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
     config.common.default = "gtk";
   };
-  
+
   nix.gc = {
     automatic = true;
     dates = "weekly";
@@ -138,5 +147,3 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   system.stateVersion = "25.11";
 }
-
-

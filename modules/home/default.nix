@@ -27,6 +27,8 @@
       glib
       gtk3
       nodejs
+      nil
+      nixpkgs-fmt
     ];
 
     sessionVariables = {
