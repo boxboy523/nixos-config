@@ -29,6 +29,7 @@
       nodejs
       nil
       nixpkgs-fmt
+      pinta
     ];
 
     sessionVariables = {

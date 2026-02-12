@@ -3,11 +3,11 @@
     "emacs-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1770545545,
-        "narHash": "sha256-lZaER6CnQ5rSOAHRzBmln+p4FG0+nzsVusGsQ2yoLbk=",
+        "lastModified": 1770876127,
+        "narHash": "sha256-I+uN0fyvRXoBj2RPgfJTa8TRVR6aD6NVLovrytXkw9U=",
         "owner": "boxboy523",
         "repo": "emacs-config",
-        "rev": "c3b96d015ea021adb0a3cede5f5f5e5ecebe3fec",
+        "rev": "3d236f2e0a0b097bca99c22af0ecdcabbd6a7056",
         "type": "github"
       },
       "original": {
@@ -51,11 +51,11 @@
     "hypr-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1770017142,
-        "narHash": "sha256-bSDdGZOyRU1nHGPHQBg6J+eSsqtqwAYwMSxMgbJN6HE=",
+        "lastModified": 1770741206,
+        "narHash": "sha256-xm83yV0sQf9n1YPbAn3/RYSDUcQWDqfC0YVPVJ+O2Ak=",
         "owner": "boxboy523",
         "repo": "hypr",
-        "rev": "1d8623a31fdb5028724107da3243ecf27cd6289c",
+        "rev": "3518cdb38f61dc8ca4d0738128a8c19ff4484f86",
         "type": "github"
       },
       "original": {

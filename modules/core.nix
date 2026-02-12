@@ -14,8 +14,13 @@
 
     inputMethod = {
       enable = true;
-      type = "kime";
-      kime.iconColor = "Black";
+      type = "fcitx5";
+      fcitx5.addons = with pkgs; [
+        fcitx5
+        fcitx5-hangul
+        qt6Packages.fcitx5-configtool
+        libsForQt5.fcitx5-qt
+      ];
     };
 
     extraLocaleSettings = {
@@ -36,6 +41,7 @@
       nerd-fonts.terminess-ttf
       noto-fonts
       noto-fonts-cjk-sans
+      noto-fonts-monochrome-emoji
       nanum
       nanum-gothic-coding
       font-awesome
@@ -94,10 +100,16 @@
     };
   };
 
+  virtualisation.docker = {
+    enable = true;
+    enableOnBoot = true;
+    autoPrune.enable = true;
+  };
+
   users.users.junyeong = {
     isNormalUser = true;
     description = "Junyeong Kim";
-    extraGroups = [ "networkmanager" "wheel"];
+    extraGroups = [ "networkmanager" "wheel" "docker"];
     initialPassword = "password";
     shell = pkgs.zsh;
   };
@@ -123,8 +135,15 @@
     unrar
     p7zip
     unrar
+    docker-compose
   ];
 
+  environment.sessionVariables = {
+  GTK_IM_MODULE = "fcitx";
+  QT_IM_MODULE = "fcitx";
+  XMODIFIERS = "@im=fcitx";
+};
+  
   services.openssh.enable = true;
 
   programs = {
