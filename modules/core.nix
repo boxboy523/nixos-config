@@ -109,7 +109,7 @@
   users.users.junyeong = {
     isNormalUser = true;
     description = "Junyeong Kim";
-    extraGroups = [ "networkmanager" "wheel" "docker"];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     initialPassword = "password";
     shell = pkgs.zsh;
   };
@@ -143,7 +143,7 @@
   QT_IM_MODULE = "fcitx";
   XMODIFIERS = "@im=fcitx";
 };
-  
+
   services.openssh.enable = true;
 
   programs = {
