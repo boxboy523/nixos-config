@@ -6,7 +6,6 @@
       ./hardware-configuration.nix
     ];
 
-  # Use the sXystemd-boot EFI boot loader.
   boot.loader.grub = {
     enable = true;
     efiSupport = true;
@@ -14,6 +13,21 @@
     useOSProber = true;
     gfxmodeEfi = "2560x1600";
   };
+
+  hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = true;
+  };
+  services.blueman.enable = true;
+  services.libinput.enable = true;
+  services.libinput.touchpad = {
+    naturalScrolling = true;
+    tapping = true;
+  };
+
+  environment.systemPackages = with pkgs; [
+    libinput
+  ];
 
   networking.hostName = "laptop"; # Define your hostname.
 

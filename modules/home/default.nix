@@ -38,9 +38,6 @@
       XDG_CONFIG_HOME = "${config.home.homeDirectory}/.config";
       EDITOR = lib.mkForce "emacs -nw";
       VISUAL = lib.mkForce "emacs -nw";
-      PWA_GEMINI = "01KG1NTG96PVAT4P7XY55NKG9P";
-      PWA_YOUTUBE = "01KG1NV1QGX9SS56GDV23E1AM1";
-      PWA_NAMUWIKI = "01KG1NVB8CCCXA8NFWYBERKK1J";
       EMACSDIR = "$HOME/.config/emacs";
       XCURSOR_THEME = "Adwaita";
       XCURSOR_SIZE = 24;

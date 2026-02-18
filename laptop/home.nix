@@ -12,8 +12,13 @@ let
 in
 {
   imports = [ ../modules/home/default.nix ../modules/home/hypr.nix ];
-  
+
   my.hyprland.configPackage = laptopHyprConfig;
+  home.sessionVariables = {
+    PWA_GEMINI = "01KHP43TQ5WM8Z21H4YT2WPPJ4";
+    PWA_YOUTUBE = "01KHP46TV04EJSANPR2EV14Z0C";
+    PWA_NAMUWIKI = "01KHP45YZ0D4G462F3VCA5FBRQ";
+  };
 
   home.packages = with pkgs; [
     # 1. 하드웨어 제어 유틸 (Hyprland 단축키 연동용)

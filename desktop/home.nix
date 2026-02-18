@@ -31,6 +31,14 @@ in
     ".local/share".source = config.lib.file.mkOutOfStoreSymlink "/storage/local/share";
   };
 
+  home.sessionVariables = {
+    XDG_CACHE_HOME = "/storage/cache";
+    XDG_DATA_HOME  = "/storage/local/share";
+    XDG_STATE_HOME = "/storage/local/state";
+    PWA_GEMINI = "01KG1NTG96PVAT4P7XY55NKG9P";
+    PWA_YOUTUBE = "01KG1NV1QGX9SS56GDV23E1AM1";
+    PWA_NAMUWIKI = "01KG1NVB8CCCXA8NFWYBERKK1J";
+  };
   xdg = {
     enable = true;
     cacheHome = "/storage/cache";

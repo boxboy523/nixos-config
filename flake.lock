@@ -19,7 +19,7 @@
     "hahmlet": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-kpiyQcJ1NlDlylsc3lTYWRPQVIMSiQym2d3Qdk8GHV4=",
+        "narHash": "sha256-j237ybWv9+jahSe6HNzSl1/QjhyiwzXNfd6PfIdEWc4=",
         "type": "file",
         "url": "https://github.com/hyper-type/hahmlet"
       },
@@ -51,11 +51,11 @@
     "hypr-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1771055813,
-        "narHash": "sha256-jTmedqn5HvJpZ57EdoOBuzDwvFphDv2kFjgM++mwJXg=",
+        "lastModified": 1771348784,
+        "narHash": "sha256-uFV/8pX9ew7iSycHo0DJdHODviGqyS8VgfEa+ge6WmI=",
         "owner": "boxboy523",
         "repo": "hypr",
-        "rev": "6c76b2f54c47d6706b23017a8a5dc23c42fb6a97",
+        "rev": "a8fbad358f42836904232d6c9c3de08f25621372",
         "type": "github"
       },
       "original": {
@@ -158,11 +158,11 @@
     "waybar-conf": {
       "flake": false,
       "locked": {
-        "lastModified": 1768906324,
-        "narHash": "sha256-gaIoKQrBoANaEJ6R6jsaEB1zX+bEJP3M6R7rpE/U1sc=",
+        "lastModified": 1771346629,
+        "narHash": "sha256-qirlRKo5QJKV5uhTrUhRPPjRBFlC3CDB3qwkWQyYQ6E=",
         "owner": "boxboy523",
         "repo": "waybar",
-        "rev": "f50c32e65cbf0d182741e5f76a15843d8206df6a",
+        "rev": "4f074612bf069468cce2184bac4d0cb01d4c9b48",
         "type": "github"
       },
       "original": {
