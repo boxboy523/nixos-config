@@ -6,13 +6,26 @@
   hardware.graphics = {
     enable = true;
     enable32Bit = true;
+    extraPackages = with pkgs; [
+      nvidia-vaapi-driver
+      libva-vdpau-driver
+      libvdpau-va-gl
+      cudaPackages.cudatoolkit
+    ];
   };
+
+  virtualisation.docker.enableNvidia = true;
 
   programs.steam = {
     enable = true;
     gamescopeSession.enable = true;
   };
 
+  programs.gamescope = {
+    enable = true;
+    capSysNice = true;
+  };
+  
   programs.gamemode.enable = true;
   environment.systemPackages = with pkgs; [
     lutris (
@@ -33,6 +46,7 @@
     vulkan-loader
     vulkan-tools
     dxvk
+    cage
   ];
   environment.sessionVariables = {
     VK_ICD_FILENAMES = "${config.hardware.nvidia.package}/share/vulkan/icd.d/nvidia_icd.x86_64.json:${config.hardware.nvidia.package.lib32}/share/vulkan/icd.d/nvidia_icd.i686.json";

@@ -23,7 +23,7 @@
   networking.hostName = "desktop"; # Define your hostname.
 
   programs.fuse.userAllowOther = true;
-  
+
   fileSystems."/storage" = {
     fsType = "fuse.mergerfs";
     device = "/mnt/ssd1:/mnt/ssd2";
@@ -37,7 +37,12 @@
       "x-systemd.automount"
     ];
   };
-  
+
+   fileSystems."/home/junyeong/documents" = {
+    device = "/storage/documents";
+    options = [ "bind" ];
+  };
+
   services.openssh.enable = true;
   systemd.tmpfiles.rules = [
     "d /storage 0755 junyeong users -"
@@ -47,10 +52,24 @@
   SUBSYSTEM=="drm", KERNEL=="card[0-9]*", KERNELS=="0000:01:00.0", SYMLINK+="card-nvidia"
   SUBSYSTEM=="drm", KERNEL=="card[0-9]*", KERNELS=="0000:11:00.0", SYMLINK+="card-igpu"
   '';
-
+  
   environment.sessionVariables = {
     AQ_DRM_DEVICES = "/dev/card-igpu:/dev/card-nvidia";
   };
+
+  environment.systemPackages = [
+    (pkgs.writeShellScriptBin "start-game" ''
+      trap "systemctl --user stop sunshine" EXIT
+      (sleep 3 && systemctl --user start sunshine) &
+      exec ${pkgs.gamescope}/bin/gamescope \
+        -W 3840 -H 2160 -r 60 \
+        --backend wayland \
+        -f \
+        --cursor-scale-height 2 \
+        -- \
+        ${pkgs.steam}/bin/steam -tenfoot -gamepadui
+    '')
+  ];
 
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.nvidia = {
@@ -67,9 +86,25 @@
       amdgpuBusId = "PCI:11:00:0";
       nvidiaBusId = "PCI:01:00:0";
     };
-    
+
     package = config.boot.kernelPackages.nvidiaPackages.stable;
   };
+
+  services.sunshine = {
+    enable = true;
+    autoStart = false;
+    openFirewall = true;
+    capSysAdmin = true;
+    applications.env = {
+      LD_LIBRARY_PATH= "/run/opengl-driver/lib:/run/opengl-driver-32/lib:$LD_LIBRARY_PATH";
+    };
+      package = pkgs.sunshine.override {
+      cudaSupport = true;
+      cudaPackages = pkgs.cudaPackages;
+    };
+  };
+
+  hardware.uinput.enable = true;
+
+  users.users.junyeong.extraGroups = [ "input" "video" "render" ];
 }
-
-

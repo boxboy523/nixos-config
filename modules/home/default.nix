@@ -30,6 +30,7 @@
       nil
       nixpkgs-fmt
       pinta
+      appimage-run
     ];
 
     sessionVariables = {

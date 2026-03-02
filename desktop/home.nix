@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+ { config, pkgs, inputs, ... }:
 let
   desktopHyprConfig = pkgs.runCommand "desktop-hypr-config" { } ''
     mkdir -p $out
@@ -17,7 +17,7 @@ in
 
   home.file = {
     "downloads".source = config.lib.file.mkOutOfStoreSymlink "/storage/downloads";
-    "documents".source = config.lib.file.mkOutOfStoreSymlink "/storage/documents";
+#    "documents".source = config.lib.file.mkOutOfStoreSymlink "/storage/documents";
     "develop".source = config.lib.file.mkOutOfStoreSymlink "/storage/develop";
     "games".source = config.lib.file.mkOutOfStoreSymlink "/storage/games";
     "conf".source = config.lib.file.mkOutOfStoreSymlink "/storage/conf";
