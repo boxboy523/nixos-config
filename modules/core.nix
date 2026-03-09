@@ -100,16 +100,10 @@
     };
   };
 
-  virtualisation.docker = {
-    enable = true;
-    enableOnBoot = true;
-    autoPrune.enable = true;
-  };
-
   users.users.junyeong = {
     isNormalUser = true;
     description = "Junyeong Kim";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" ];
     initialPassword = "password";
     shell = pkgs.zsh;
   };
@@ -135,7 +129,6 @@
     unrar
     p7zip
     unrar
-    docker-compose
     qemu
   ];
 

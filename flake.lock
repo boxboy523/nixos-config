@@ -19,13 +19,17 @@
     "hahmlet": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-SLfa4UV4qgSU2RcH6OINdf0IxPkkG8AutE5rpY92M+M=",
-        "type": "file",
-        "url": "https://github.com/hyper-type/hahmlet"
+        "lastModified": 1655751203,
+        "narHash": "sha256-ADRcTokQ9BnwiCaCxa2KeEUzKQGq39Zjdl8AA1cSStY=",
+        "owner": "hyper-type",
+        "repo": "hahmlet",
+        "rev": "f9c5dac25d88015e9f0953253cec1a71854b7d24",
+        "type": "github"
       },
       "original": {
-        "type": "file",
-        "url": "https://github.com/hyper-type/hahmlet"
+        "owner": "hyper-type",
+        "repo": "hahmlet",
+        "type": "github"
       }
     },
     "home-manager": {

@@ -14,8 +14,6 @@
     ];
   };
 
-  virtualisation.docker.enableNvidia = true;
-
   programs.steam = {
     enable = true;
     gamescopeSession.enable = true;
@@ -40,7 +38,7 @@
     mangohud
     discord
     pavucontrol
-    xorg.xrandr
+    xrandr
     wineWow64Packages.staging
     winetricks
     vulkan-loader

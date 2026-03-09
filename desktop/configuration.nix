@@ -4,6 +4,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ../modules/docker.nix
     ];
 
   # Use the sXystemd-boot EFI boot loader.

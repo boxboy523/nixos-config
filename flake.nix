@@ -43,7 +43,7 @@
     };
 
     hahmlet = {
-      url = "https://github.com/hyper-type/hahmlet";
+      url = "github:hyper-type/hahmlet";
       flake = false;
     };
   };
@@ -57,6 +57,7 @@
           ./desktop/configuration.nix
           ./modules/core.nix
           ./modules/game.nix
+          ./modules/docker.nix
           {
             nixpkgs.config.allowUnfree = true;
           }
