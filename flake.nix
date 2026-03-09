@@ -46,6 +46,11 @@
       url = "github:hyper-type/hahmlet";
       flake = false;
     };
+
+    gemini-cli-src = {
+      url = "github:google-gemini/gemini-cli/v0.32.1";
+      flake = false;
+    };
   };
 
   outputs = { self, nixpkgs, home-manager, nixos-hardware, ... }@inputs: {

@@ -32,6 +32,9 @@
       pinta
       appimage-run
       python313Packages.huggingface-hub
+      (pkgs.writeShellScriptBin "gemini" ''
+        exec ${pkgs.nodejs}/bin/npx @google/gemini-cli@latest "$@"
+      '')
     ];
 
     sessionVariables = {

@@ -16,6 +16,23 @@
         "type": "github"
       }
     },
+    "gemini-cli-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1772595532,
+        "narHash": "sha256-2vi4bYWdiwTdGVXgOwq31sgly0mL3cBALTXbR0bGSh8=",
+        "owner": "google-gemini",
+        "repo": "gemini-cli",
+        "rev": "4d9d0b3db5da3f373f37147ecf5f3e41040a8d96",
+        "type": "github"
+      },
+      "original": {
+        "owner": "google-gemini",
+        "ref": "v0.32.1",
+        "repo": "gemini-cli",
+        "type": "github"
+      }
+    },
     "hahmlet": {
       "flake": false,
       "locked": {
@@ -148,6 +165,7 @@
     "root": {
       "inputs": {
         "emacs-conf": "emacs-conf",
+        "gemini-cli-src": "gemini-cli-src",
         "hahmlet": "hahmlet",
         "home-manager": "home-manager",
         "hypr-conf": "hypr-conf",
