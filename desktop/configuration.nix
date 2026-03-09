@@ -104,6 +104,10 @@
     };
   };
 
+  swapDevices = [ {
+    device = "/var/lib/swapfile";
+    size = 65536; # 32GB (단위: MiB)
+  } ];
   hardware.uinput.enable = true;
 
   users.users.junyeong.extraGroups = [ "input" "video" "render" ];

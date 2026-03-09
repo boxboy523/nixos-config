@@ -47,6 +47,7 @@
     vulkan-tools
     dxvk
     cage
+    nvtopPackages.full
   ];
   environment.sessionVariables = {
     VK_ICD_FILENAMES = "${config.hardware.nvidia.package}/share/vulkan/icd.d/nvidia_icd.x86_64.json:${config.hardware.nvidia.package.lib32}/share/vulkan/icd.d/nvidia_icd.i686.json";

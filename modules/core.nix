@@ -136,6 +136,7 @@
     p7zip
     unrar
     docker-compose
+    qemu
   ];
 
   environment.sessionVariables = {

@@ -31,6 +31,7 @@
       nixpkgs-fmt
       pinta
       appimage-run
+      python313Packages.huggingface-hub
     ];
 
     sessionVariables = {
@@ -73,6 +74,7 @@
   programs = {
     git = {
       enable = true;
+      lfs.enable = true;
       settings.user = {
         name = "Junyeong Kim";
         email = "rlawnsdud523@gmail.com";
