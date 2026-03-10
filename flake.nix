@@ -82,6 +82,7 @@
           ./laptop/configuration.nix
           ./modules/core.nix
           ./modules/game.nix
+          ./modules/docker.nix
           nixos-hardware.nixosModules.lenovo-ideapad-16ach6
           {
             nixpkgs.config.allowUnfree = true;

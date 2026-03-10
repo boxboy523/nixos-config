@@ -4,7 +4,6 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ../modules/docker.nix
     ];
 
   # Use the sXystemd-boot EFI boot loader.
@@ -25,24 +24,51 @@
 
   programs.fuse.userAllowOther = true;
 
-  fileSystems."/storage" = {
-    fsType = "fuse.mergerfs";
-    device = "/mnt/ssd1:/mnt/ssd2";
-    options = [
-      "cache.files=off"
-      "func.getattr=newest"
-      "dropcacheonclose=false"
-      "minfreespace=10G"
-      "category.create=pfrd"
-      "fsname=storage_merged"
-      "x-systemd.automount"
-    ];
-  };
 
-   fileSystems."/home/junyeong/documents" = {
-    device = "/storage/documents";
-    options = [ "bind" ];
+  fileSystems = {
+    "/storage" = {
+      fsType = "fuse.mergerfs";
+      device = "/mnt/ssd1:/mnt/ssd2";
+      options = [
+        "cache.files=off"
+        "func.getattr=newest"
+        "dropcacheonclose=false"
+        "minfreespace=10G"
+        "category.create=pfrd"
+        "fsname=storage_merged"
+        "x-systemd.automount"
+      ];
+    };
+    "/home/junyeong/develop" = {
+      device = "/storage/develop";
+      options = [ "bind" ];
+    };
+    "/home/junyeong/downloads" = {
+      device = "/storage/downloads";
+      options = [ "bind" ];
+    };
+    "/home/junyeong/games" = {
+      device = "/storage/games";
+      options = [ "bind" ];
+    };
+    "/home/junyeong/conf" = {
+      device = "/storage/conf";
+      options = [ "bind" ];
+    };
+    "/home/junyeong/.cache" = {
+      device = "/storage/cache";
+      options = [ "bind" ];
+    };
+    "/home/junyeong/.local/share" = {
+      device = "/storage/local/share";
+      options = [ "bind" ];
+    };
+    "/home/junyeong/documents" = {
+      device = "/storage/documents";
+      options = [ "bind" ];
+    };
   };
+   
 
   services.openssh.enable = true;
   systemd.tmpfiles.rules = [
