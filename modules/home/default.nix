@@ -4,12 +4,12 @@
   imports = [
     ./dark-mode.nix
   ];
-  
+
   home = {
     username = "junyeong";
     homeDirectory = "/home/junyeong";
     stateVersion = "25.11";
-    
+
     packages = with pkgs; [
       fastfetch
       ripgrep
@@ -31,6 +31,7 @@
       nixpkgs-fmt
       pinta
       appimage-run
+      sshfs
       python313Packages.huggingface-hub
       (pkgs.writeShellScriptBin "gemini" ''
         exec ${pkgs.nodejs}/bin/npx @google/gemini-cli@latest "$@"
@@ -82,7 +83,7 @@
         name = "Junyeong Kim";
         email = "rlawnsdud523@gmail.com";
       };
-      
+
       settings = {
         init.defaultBranch = "master";
       };
@@ -93,7 +94,7 @@
       enableCompletion = true;
       autosuggestion.enable = true;
       syntaxHighlighting.enable = true; # 문법 하이라이팅
-      
+
       shellAliases = {
         update = "sudo nixos-rebuild switch --flake /storage/conf/nixos-config";
         et = "emacsclient -t";
@@ -127,12 +128,17 @@
     source = inputs.emacs-conf;
     recursive = true;
   };
-  
+
   services.emacs = {
     enable = true;
     defaultEditor = false;
   };
-  
+
+  systemd.user.services.emacs.Service.Environment = [
+    "TERM=xterm-256color"
+    "COLORTERM=truecolor"
+  ];
+
   programs.firefox = {
     enable = true;
     nativeMessagingHosts = [ pkgs.firefoxpwa ];
@@ -155,7 +161,7 @@
     publicShare = "${config.home.homeDirectory}/public";
     templates = "${config.home.homeDirectory}/templates";
   };
-  
+
   home.file = {
     ".config/kime/config.yaml".source = ../../res/kime_config.yaml;
     ".config/nixpkgs".source = ../../res/nixpkgs;
