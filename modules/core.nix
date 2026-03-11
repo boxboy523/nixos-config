@@ -103,7 +103,7 @@
   users.users.junyeong = {
     isNormalUser = true;
     description = "Junyeong Kim";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "uinput" ];
     initialPassword = "password";
     shell = pkgs.zsh;
   };
@@ -139,6 +139,8 @@
 };
 
   services.openssh.enable = true;
+
+  programs.ydotool.enable = true;
 
   programs = {
     zsh.enable = true;
