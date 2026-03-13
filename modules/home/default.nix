@@ -37,6 +37,7 @@
         exec ${pkgs.nodejs}/bin/npx @google/gemini-cli@latest "$@"
       '')
       rclone
+      texliveFull
     ];
 
     sessionVariables = {

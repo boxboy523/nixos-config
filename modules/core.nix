@@ -124,6 +124,7 @@
     libvterm
     keyd
     atool
+    zip
     unzip
     gnutar
     unrar
