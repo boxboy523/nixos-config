@@ -156,6 +156,39 @@
     extraOptions = [
       "--gui-address=0.0.0.0:8384"
     ];
+    settings.devices = {
+      "Laptop" = {
+        id = "3HN4HNI-IZVDYNT-CJ2TP3H-N7NLIAQ-CLUK3P2-BLCMH3H-S3EJWU5-EI7U2Q5";
+      };
+      "Phone" = {
+        id = "QVDOKFK-JHHY3KI-M6XB4UN-BTNV7UV-FVL5CTY-PT4JDXZ-67YAKUZ-QGKU7QB";
+      };
+      "Desktop" = {
+        id = "7KQX3KF-JWJUEH5-37NQ2SR-P2FQJNX-BUQ7PZW-FU426UN-WHGA4QR-TPFBZQE";
+      };
+    };
+    settings.folders = {
+      "Config" = {
+        id = "qo6mo-hdgdd";
+        path = "${config.home.homeDirectory}/conf";
+        devices = [ "Laptop" "Desktop" ];
+      };
+      "Develop" = {
+        id = "fo2fv-kveun";
+        path = "${config.home.homeDirectory}/develop";
+        devices = [ "Laptop" "Desktop" ];
+      };
+      "Org" = {
+        id = "kb0lx-0wmhi";
+        path = "${config.home.homeDirectory}/documents/org";
+        devices = [ "Laptop" "Desktop" "Phone" ];
+      };
+      "Study" = {
+        id = "kenxx-cskak";
+        path = "${config.home.homeDirectory}/study";
+        devices = [ "Laptop" "Desktop" ];
+      };
+    };
   };
 
   xdg.userDirs = {

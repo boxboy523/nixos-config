@@ -67,8 +67,12 @@
       device = "/storage/documents";
       options = [ "bind" ];
     };
+    "/home/junyeong/study" = {
+      device = "/storage/study";
+      options = [ "bind" ];
+    };
   };
-   
+
 
   services.openssh.enable = true;
   systemd.tmpfiles.rules = [
@@ -79,7 +83,7 @@
   SUBSYSTEM=="drm", KERNEL=="card[0-9]*", KERNELS=="0000:01:00.0", SYMLINK+="card-nvidia"
   SUBSYSTEM=="drm", KERNEL=="card[0-9]*", KERNELS=="0000:11:00.0", SYMLINK+="card-igpu"
   '';
-  
+
   environment.sessionVariables = {
     AQ_DRM_DEVICES = "/dev/card-igpu:/dev/card-nvidia";
   };
