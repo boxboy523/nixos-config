@@ -6,6 +6,8 @@
   # Configure network connections interactively with nmcli or nmtui.
   networking.networkmanager.enable = true;
 
+  networking.firewall.allowedTCPPorts = [ 22000 8384 ];
+  networking.firewall.allowedUDPPorts = [ 22000 8384 ];
   # Set your time zone.
   time.timeZone = "Asia/Seoul";
 
