@@ -9,29 +9,6 @@
     };
 
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
-    
-    hypr-conf = {
-      url = "github:boxboy523/hypr";
-      #url = "path:/storage/config/hypr";
-      flake = false;
-    };
-
-    waybar-conf = {
-      url = "github:boxboy523/waybar";
-      flake = false;
-    };
-
-    rofi-conf = {
-      url = "github:boxboy523/rofi";
-      flake = false;
-    };
-
-    emacs-conf = {
-      url = "github:boxboy523/emacs-config";
-     # url = "path:/storage/conf/emacs-config";
-      flake = false;
-    };
-
     monoplex = {
       url = "https://github.com/y-kim/monoplex/releases/download/v0.0.2/MonoplexKR-v0.0.2.zip";
       flake = false;
@@ -57,7 +34,10 @@
     nixosConfigurations = {
       "desktop" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = { inherit inputs; };
+        specialArgs = {
+          inherit inputs;
+          confRoot = "/storage/conf";
+        };
         modules = [
           ./desktop/configuration.nix
           ./modules/core.nix
@@ -70,14 +50,20 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.extraSpecialArgs = { inherit inputs; };
+            home-manager.extraSpecialArgs = {
+              inherit inputs;
+              confRoot = "/storage/conf";
+            };
             home-manager.users.junyeong = import ./desktop/home.nix;
           }
         ];
       };
       "laptop" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = { inherit inputs; };
+        specialArgs = {
+          inherit inputs;
+          confRoot = "/storage/conf";
+        };
         modules = [
           ./laptop/configuration.nix
           ./modules/core.nix
@@ -91,7 +77,10 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.extraSpecialArgs = { inherit inputs; };
+            home-manager.extraSpecialArgs = {
+              inherit inputs;
+              confRoot = "/home/junyeong/conf";
+            };
             home-manager.users.junyeong = import ./laptop/home.nix;
           }
         ];

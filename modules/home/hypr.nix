@@ -1,12 +1,6 @@
-{ lib, config, pkgs, inputs, ... }:
+{ lib, config, pkgs, inputs, confRoot, ... }:
 
 {
-  options = {
-    my.hyprland.configPackage = lib.mkOption {
-      type = lib.types.path;
-      description = "Hyprland Configuration Path";
-    };
-  };
   config = {
     home.packages = with pkgs; [
       waybar
@@ -16,11 +10,11 @@
       grim
       slurp
     ];
-  
+
     xdg.configFile = {
-      "hypr".source = config.my.hyprland.configPackage;
-      "waybar".source = inputs.waybar-conf;
-      "rofi".source = inputs.rofi-conf;
+      "hypr".source = config.lib.file.mkOutOfStoreSymlink "${confRoot}/hypr";
+      "waybar".source = config.lib.file.mkOutOfStoreSymlink "${confRoot}/waybar";
+      "rofi".source = config.lib.file.mkOutOfStoreSymlink "${confRoot}/rofi";
     };
   };
 }
