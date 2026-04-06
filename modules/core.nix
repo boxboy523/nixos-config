@@ -46,6 +46,7 @@
       noto-fonts-monochrome-emoji
       nanum
       nanum-gothic-coding
+      vista-fonts
       font-awesome
       (pkgs.runCommand "monoplex-font" { } ''
         mkdir -p $out/share/fonts/truetype

@@ -1,19 +1,6 @@
-{ config, pkgs, inputs, ... }:
-let
-  laptopHyprConfig = pkgs.runCommand "laptop-hypr-config" { } ''
-    mkdir -p $out
-
-    cp -r ${inputs.hypr-conf}/* $out/
-    chmod -R +w $out
-
-    cp $out/monitors/laptop.conf $out/monitor.conf
-    rm -rf $out/monitors
-  '';
-in
+{ config, pkgs, inputs, confRoot, ... }:
 {
   imports = [ ../modules/home/default.nix ../modules/home/hypr.nix ];
-
-  my.hyprland.configPackage = laptopHyprConfig;
   home.sessionVariables = {
     PWA_GEMINI = "01KHP43TQ5WM8Z21H4YT2WPPJ4";
     PWA_YOUTUBE = "01KHP46TV04EJSANPR2EV14Z0C";
@@ -34,4 +21,6 @@ in
     # 3. 전력 모니터링
     powertop       # 배터리 누가 먹나 감시하는 툴 (CS 전공자 필수템)
   ];
+
+  xdg.configFile."hypr-monitor.conf".source = config.lib.file.mkOutOfStoreSymlink "${confRoot}/hypr/monitors/laptop.conf";
 }

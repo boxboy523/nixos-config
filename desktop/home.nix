@@ -1,19 +1,6 @@
- { config, pkgs, inputs, ... }:
-let
-  desktopHyprConfig = pkgs.runCommand "desktop-hypr-config" { } ''
-    mkdir -p $out
-
-    cp -r ${inputs.hypr-conf}/* $out/
-    chmod -R +w $out
-      
-    cp $out/monitors/desktop.conf $out/monitor.conf
-    rm -rf $out/monitors
-  '';
-in
-{
-  imports = [ ../modules/home/default.nix ../modules/home/hypr.nix ];
-  
-  my.hyprland.configPackage = desktopHyprConfig;
+ { config, confRoot, ... }:
+ {
+   imports = [ ../modules/home/default.nix ../modules/home/hypr.nix ];
 
   home.file = {
 #    "downloads".source = config.lib.file.mkOutOfStoreSymlink "/storage/downloads";
@@ -39,10 +26,12 @@ in
     PWA_YOUTUBE = "01KG1NV1QGX9SS56GDV23E1AM1";
     PWA_NAMUWIKI = "01KG1NVB8CCCXA8NFWYBERKK1J";
   };
+
   xdg = {
     enable = true;
     cacheHome = "/storage/cache";
     dataHome  = "/storage/local/share";
     stateHome = "/storage/local/state";
+    configFile."hypr-monitor.conf".source = config.lib.file.mkOutOfStoreSymlink "${confRoot}/hypr/monitors/desktop.conf";
   };
 }

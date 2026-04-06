@@ -3,18 +3,28 @@ if [[ "$TERM" == "linux" ]]; then
 else
     pokeget random
     eval "$(starship init zsh)"
-    function e() {
-        local TERM_INFO=$(hyprctl activewindow -j)
-        local TERM_ADDR=$(echo "$TERM_INFO" | jq -r '.address')
-        local ORIGIN_WS=$(echo "$TERM_INFO" | jq -r '.workspace.name')
-        
-        hyprctl dispatch movetoworkspacesilent "special:hidden,address:$TERM_ADDR"
-        
-        emacsclient -c -a '' "$@"
-        
-        hyprctl dispatch movetoworkspace "$ORIGIN_WS,address:$TERM_ADDR"
-        hyprctl dispatch focuswindow "address:$TERM_ADDR"
-    }
+    alias ok='hrun okular'
+    alias e="hrun emacsclient -c -a \'\'"
+    function oo() {
+    # 인자가 없으면 프로그램만 실행
+    if [ $# -eq 0 ]; then
+        hrun onlyoffice-desktopeditors
+        return
+    fi
+
+    # 마지막 인자를 파일명으로 추출
+    local filename="${@: -1}"
+    # 마지막 인자를 제외한 나머지를 옵션으로 추출
+    local options=("${@:1:$# - 1}")
+
+    # 파일이 존재하면 절대 경로로 변환 (realpath)
+    if [ -e "$filename" ]; then
+        filename=$(realpath "$filename")
+    fi
+
+    # hrun을 사용하여 실행
+    hrun onlyoffice-desktopeditors "${options[@]}" "--view=$filename"
+}
 fi
 
 nin() {

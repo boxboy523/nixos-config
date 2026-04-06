@@ -1,5 +1,8 @@
-{ config, pkgs, lib, inputs, ... }:
+{ config, pkgs, lib, inputs, confRoot, ... }:
 
+let
+  hrunContent = builtins.readFile ../../res/hrun.sh;
+in
 {
   imports = [
     ./dark-mode.nix
@@ -38,6 +41,11 @@
       '')
       rclone
       texliveFull
+      ffmpeg
+      kdePackages.okular
+      onlyoffice-desktopeditors
+      (writeShellScriptBin "hrun" hrunContent)
+      uv
     ];
 
     sessionVariables = {
@@ -127,7 +135,7 @@
   };
 
   xdg.configFile."emacs" = {
-    source = inputs.emacs-conf;
+    source = config.lib.file.mkOutOfStoreSymlink "${confRoot}/emacs-config";
     recursive = true;
   };
 
