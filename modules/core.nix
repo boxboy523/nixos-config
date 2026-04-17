@@ -14,6 +14,10 @@
   i18n = {
     defaultLocale = "en_US.UTF-8";
 
+    supportedLocales = [
+      "en_US.UTF-8/UTF-8"
+      "ko_KR.UTF-8/UTF-8"
+    ];
     inputMethod = {
       enable = true;
       type = "fcitx5";
@@ -41,12 +45,14 @@
   fonts = {
     packages = with pkgs; [
       nerd-fonts.terminess-ttf
+      nerd-fonts.d2coding
       noto-fonts
       noto-fonts-cjk-sans
       noto-fonts-monochrome-emoji
       nanum
       nanum-gothic-coding
       vista-fonts
+      liberation_ttf
       font-awesome
       (pkgs.runCommand "monoplex-font" { } ''
         mkdir -p $out/share/fonts/truetype
@@ -137,10 +143,10 @@
   ];
 
   environment.sessionVariables = {
-  GTK_IM_MODULE = "fcitx";
-  QT_IM_MODULE = "fcitx";
-  XMODIFIERS = "@im=fcitx";
-};
+    GTK_IM_MODULE = "fcitx";
+    QT_IM_MODULE = "fcitx";
+    XMODIFIERS = "@im=fcitx";
+  };
 
   services.openssh.enable = true;
 

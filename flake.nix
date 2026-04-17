@@ -23,11 +23,6 @@
       url = "github:hyper-type/hahmlet";
       flake = false;
     };
-
-    gemini-cli-src = {
-      url = "github:google-gemini/gemini-cli/v0.32.1";
-      flake = false;
-    };
   };
 
   outputs = { self, nixpkgs, home-manager, nixos-hardware, ... }@inputs: {
@@ -62,10 +57,41 @@
         system = "x86_64-linux";
         specialArgs = {
           inherit inputs;
-          confRoot = "/storage/conf";
+          confRoot = "/home/junyeong/conf";
         };
         modules = [
           ./laptop/configuration.nix
+          ./modules/core.nix
+          ./modules/game.nix
+          ./modules/docker.nix
+          nixos-hardware.nixosModules.common-cpu-amd
+          nixos-hardware.nixosModules.common-cpu-amd-pstate
+          nixos-hardware.nixosModules.common-gpu-amd
+          nixos-hardware.nixosModules.common-pc-laptop-ssd
+          nixos-hardware.nixosModules.lenovo-idapad-slim-5
+          {
+            nixpkgs.config.allowUnfree = true;
+          }
+          home-manager.nixosModules.home-manager
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.extraSpecialArgs = {
+              inherit inputs;
+              confRoot = "/home/junyeong/conf";
+            };
+            home-manager.users.junyeong = import ./laptop/home.nix;
+          }
+        ];
+      };
+      "server" = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        specialArgs = {
+          inherit inputs;
+          confRoot = "/home/junyeong/conf";
+        };
+        modules = [
+          ./server/configuration.nix
           ./modules/core.nix
           ./modules/game.nix
           ./modules/docker.nix
@@ -81,7 +107,7 @@
               inherit inputs;
               confRoot = "/home/junyeong/conf";
             };
-            home-manager.users.junyeong = import ./laptop/home.nix;
+            home-manager.users.junyeong = import ./server/home.nix;
           }
         ];
       };

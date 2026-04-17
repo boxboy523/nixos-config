@@ -39,9 +39,7 @@ in
       (pkgs.writeShellScriptBin "gemini" ''
         exec ${pkgs.nodejs}/bin/npx @google/gemini-cli@latest "$@"
         '')
-      (pkgs.writeShellScriptBin "claude-code" ''
-        exec ${pkgs.nodejs}/bin/npx @anthropic-ai/claude-code@latest "$@"
-        '')
+      claude-code
       rclone
       texliveFull
       ffmpeg
@@ -133,12 +131,6 @@ in
       enable = true;
       enableZshIntegration = false;
     };
-  };
-
-  gtk = {
-    enable = true;
-    gtk3.extraConfig.gtk-im-module = "fcitx";
-    gtk4.extraConfig.gtk-im-module = "fcitx";
   };
 
   programs.emacs = {
