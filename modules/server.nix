@@ -2,8 +2,10 @@
 
 {
   # 뚜껑 닫아도 슬립 안 들어가게
-  services.logind.lidSwitch = "ignore";
-  services.logind.lidSwitchExternalPower = "ignore";
+  services.logind.settings.Login = {
+    HandleLidSwitch = "ignore";
+    HandleLidSwitchExternalPower = "ignore";
+  };
 
   # 서버 포트
   networking.firewall.allowedTCPPorts = [
@@ -23,7 +25,10 @@
     port = 8080;
     settings = {
       server_url = "http://localhost:8080";
-      dns.magic_dns = false;
+      dns = {
+        magic_dns = false;
+        nameservers.global = [ "1.1.1.1" "8.8.8.8" ];
+      };
     };
   };
 
@@ -46,14 +51,17 @@
   # Nextcloud
   services.nextcloud = {
     enable = true;
+    package = pkgs.nextcloud33;
     hostName = "nextcloud.local";
     datadir = "/data/nextcloud";
     database.createLocally = true;
     config = {
       dbtype = "sqlite";
-      adminpassFile = pkgs.writeText "nextcloud-pass" "changeme";  # 나중에 sops-nix로 교체
+      adminpassFile = "/etc/nextcloud-adminpass";
     };
   };
+
+  environment.etc."nextcloud-adminpass".text = "changeme";
 
   # Vaultwarden
   services.vaultwarden = {

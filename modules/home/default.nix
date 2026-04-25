@@ -139,6 +139,7 @@ in
     enable = true;
     gtk3.extraConfig.gtk-im-module = "fcitx";
     gtk4.extraConfig.gtk-im-module = "fcitx";
+    gtk4.theme = null;
   };
 
   programs.emacs = {
@@ -214,6 +215,7 @@ in
   xdg.userDirs = {
     enable = true;
     createDirectories = true;
+    setSessionVariables = false;
     download = "${config.home.homeDirectory}/downloads";
     documents = "${config.home.homeDirectory}/documents";
     music     = "${config.home.homeDirectory}/music";
