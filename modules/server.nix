@@ -7,6 +7,8 @@
     HandleLidSwitchExternalPower = "ignore";
   };
 
+  boot.kernelParams = [ "consoleblank=60" ];
+
   # 서버 포트
   networking.firewall.allowedTCPPorts = [
     80 443    # HTTP/HTTPS
