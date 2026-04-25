@@ -58,6 +58,7 @@
     gnutar
     unrar
     p7zip
+    git
   ];
 
   services.openssh.enable = true;

@@ -108,6 +108,7 @@
 
    environment.systemPackages = with pkgs; [
      eza
+     git
   ];
 
   # 미디어 디렉토리
