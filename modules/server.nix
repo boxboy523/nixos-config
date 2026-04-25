@@ -111,6 +111,7 @@
    environment.systemPackages = with pkgs; [
      eza
      git
+     openssl
   ];
 
   # 미디어 디렉토리
