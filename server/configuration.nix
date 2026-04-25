@@ -29,6 +29,6 @@
     libinput
   ];
 
-  networking.hostName = "laptop"; # Define your hostname.
+  networking.hostName = "server"; # Define your hostname.
 
 }

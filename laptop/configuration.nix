@@ -11,7 +11,7 @@
     efiSupport = true;
     device = "nodev";
     useOSProber = true;
-    gfxmodeEfi = "2560x1600";
+    gfxmodeEfi = "2880x1800";
   };
 
   hardware.bluetooth = {

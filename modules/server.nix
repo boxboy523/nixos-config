@@ -1,0 +1,106 @@
+{ config, lib, pkgs, ... }:
+
+{
+  # 뚜껑 닫아도 슬립 안 들어가게
+  services.logind.lidSwitch = "ignore";
+  services.logind.lidSwitchExternalPower = "ignore";
+
+  # 서버 포트
+  networking.firewall.allowedTCPPorts = [
+    80 443    # HTTP/HTTPS
+    3000      # Gitea
+    8080      # Headscale
+    8222      # Vaultwarden
+    8096      # Jellyfin
+    8888      # qBittorrent
+    9090      # Cockpit
+  ];
+
+  # Headscale (VPN 컨트롤 서버)
+  services.headscale = {
+    enable = true;
+    address = "0.0.0.0";
+    port = 8080;
+    settings = {
+      server_url = "http://localhost:8080";
+      dns.magic_dns = false;
+    };
+  };
+
+  # Gitea
+  services.gitea = {
+    enable = true;
+    appName = "Junyeong's Gitea";
+    database.type = "sqlite3";
+    customDir = "/data/gitea";
+    settings = {
+      server = {
+        DOMAIN = "gitea.local";
+        HTTP_PORT = 3000;
+        ROOT_URL = "http://gitea.local:3000";
+      };
+      service.DISABLE_REGISTRATION = true;
+    };
+  };
+
+  # Nextcloud
+  services.nextcloud = {
+    enable = true;
+    hostName = "nextcloud.local";
+    datadir = "/data/nextcloud";
+    database.createLocally = true;
+    config = {
+      dbtype = "sqlite";
+      adminpassFile = pkgs.writeText "nextcloud-pass" "changeme";  # 나중에 sops-nix로 교체
+    };
+  };
+
+  # Vaultwarden
+  services.vaultwarden = {
+    enable = true;
+    dbBackend = "sqlite";
+    config = {
+      DATA_FOLDER = "/data/vaultwarden";
+      DOMAIN = "http://vaultwarden.local";
+      SIGNUPS_ALLOWED = false;
+      ROCKET_PORT = 8222;
+    };
+  };
+
+  # Cockpit
+  services.cockpit = {
+    enable = true;
+    port = 9090;
+    openFirewall = true;
+  };
+
+  # Jellyfin
+  services.jellyfin = {
+    enable = true;
+    openFirewall = true;
+  };
+
+  # NVIDIA 트랜스코딩
+  hardware.nvidia = {
+    modesetting.enable = true;
+    powerManagement.enable = true;
+  };
+  services.xserver.videoDrivers = [ "nvidia" ];
+
+  # qBittorrent + Sonarr
+  services.qbittorrent = {
+    enable = true;
+    openFirewall = true;
+  };
+
+  services.sonarr = {
+    enable = true;
+    openFirewall = true;
+  };
+
+  # 미디어 디렉토리
+  systemd.tmpfiles.rules = [
+    "d /media/anime 0775 jellyfin jellyfin -"
+    "d /media/downloads 0775 qbittorrent qbittorrent -"
+  ];
+}

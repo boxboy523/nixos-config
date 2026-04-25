@@ -64,6 +64,7 @@
           ./modules/core.nix
           ./modules/game.nix
           ./modules/docker.nix
+          ./modules/desktop.nix
           nixos-hardware.nixosModules.common-cpu-amd
           nixos-hardware.nixosModules.common-cpu-amd-pstate
           nixos-hardware.nixosModules.common-gpu-amd
@@ -93,21 +94,10 @@
         modules = [
           ./server/configuration.nix
           ./modules/core.nix
-          ./modules/game.nix
           ./modules/docker.nix
           nixos-hardware.nixosModules.lenovo-ideapad-16ach6
           {
             nixpkgs.config.allowUnfree = true;
-          }
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.extraSpecialArgs = {
-              inherit inputs;
-              confRoot = "/home/junyeong/conf";
-            };
-            home-manager.users.junyeong = import ./server/home.nix;
           }
         ];
       };
