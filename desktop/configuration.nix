@@ -41,34 +41,42 @@
     };
     "/home/junyeong/develop" = {
       device = "/storage/develop";
+      fsType = "none";
       options = [ "bind" ];
     };
     "/home/junyeong/downloads" = {
       device = "/storage/downloads";
+      fsType = "none";
       options = [ "bind" ];
     };
     "/home/junyeong/games" = {
       device = "/storage/games";
+      fsType = "none";
       options = [ "bind" ];
     };
     "/home/junyeong/conf" = {
       device = "/storage/conf";
+      fsType = "none";
       options = [ "bind" ];
     };
     "/home/junyeong/.cache" = {
       device = "/storage/cache";
+      fsType = "none";
       options = [ "bind" ];
     };
     "/home/junyeong/.local/share" = {
       device = "/storage/local/share";
+      fsType = "none";
       options = [ "bind" ];
     };
     "/home/junyeong/documents" = {
       device = "/storage/documents";
+      fsType = "none";
       options = [ "bind" ];
     };
     "/home/junyeong/study" = {
       device = "/storage/study";
+      fsType = "none";
       options = [ "bind" ];
     };
   };
