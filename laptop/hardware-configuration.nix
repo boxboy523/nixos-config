@@ -8,39 +8,39 @@
     [ (modulesPath + "/installer/scan/not-detected.nix")
     ];
 
-  boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "ahci" "usb_storage" "sd_mod" "sdhci_pci" ];
+  boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "usb_storage" "sd_mod" "rtsx_pci_sdmmc" ];
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
 
-  fileSystems."/boot" = {
-    device = "/dev/disk/by-uuid/D615-8540";
-    fsType = "vfat";
-    options = [ "fmask=0077" "dmask=0077" ];
-  };
-
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/88ca4837-8810-4c6e-a52a-5cfa068cf664";
+    { device = "/dev/disk/by-uuid/4a86ec64-6bf4-4aa5-aaea-ded37e97f064";
       fsType = "btrfs";
-      options = [ "subvol=@" "compress=zstd" "noatime" "space_cache=v2" "ssd" "discard=async" ];
+      options = [ "subvol=@" ];
+    };
+
+  fileSystems."/boot" =
+    { device = "/dev/disk/by-uuid/361A-2CD2";
+      fsType = "vfat";
+      options = [ "fmask=0077" "dmask=0077" ];
     };
 
   fileSystems."/home" =
-    { device = "/dev/disk/by-uuid/88ca4837-8810-4c6e-a52a-5cfa068cf664";
+    { device = "/dev/disk/by-uuid/4a86ec64-6bf4-4aa5-aaea-ded37e97f064";
       fsType = "btrfs";
-      options = [ "subvol=@home" "compress=zstd" "noatime" "space_cache=v2" "ssd" "discard=async" ];
+      options = [ "subvol=@home" ];
     };
 
   fileSystems."/nix" =
-    { device = "/dev/disk/by-uuid/88ca4837-8810-4c6e-a52a-5cfa068cf664";
+    { device = "/dev/disk/by-uuid/4a86ec64-6bf4-4aa5-aaea-ded37e97f064";
       fsType = "btrfs";
-      options = [ "subvol=@nix" "compress=zstd" "noatime" "space_cache=v2" "ssd" "discard=async" ];
+      options = [ "subvol=@nix" ];
     };
 
   fileSystems."/var/log" =
-    { device = "/dev/disk/by-uuid/88ca4837-8810-4c6e-a52a-5cfa068cf664";
+    { device = "/dev/disk/by-uuid/4a86ec64-6bf4-4aa5-aaea-ded37e97f064";
       fsType = "btrfs";
-      options = [ "subvol=@log" "compress=zstd" "noatime" "space_cache=v2" "ssd" "discard=async" ];
+      options = [ "subvol=@log" ];
     };
 
   swapDevices = [ ];

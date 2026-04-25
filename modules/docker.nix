@@ -6,7 +6,7 @@
     enableOnBoot = true;
     autoPrune.enable = true;
   };
-  hardware.nvidia-container-toolkit.enable = true;
+  #:hardware.nvidia-container-toolkit.enable = true;
   users.users.junyeong.extraGroups = [ "docker" ];
 
   environment.systemPackages = with pkgs; [

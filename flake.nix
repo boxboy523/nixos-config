@@ -68,7 +68,7 @@
           nixos-hardware.nixosModules.common-cpu-amd-pstate
           nixos-hardware.nixosModules.common-gpu-amd
           nixos-hardware.nixosModules.common-pc-laptop-ssd
-          nixos-hardware.nixosModules.lenovo-idapad-slim-5
+          nixos-hardware.nixosModules.lenovo-ideapad-slim-5
           {
             nixpkgs.config.allowUnfree = true;
           }
