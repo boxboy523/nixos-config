@@ -43,27 +43,6 @@
       options = [ "subvol=@log" "compress=zstd" "noatime" "space_cache=v2" "ssd" "discard=async" ];
     };
 
-  fileSystems."/data/gitea" =
-    {
-      device = "/dev/disk/by-uuid/88ca4837-8810-4c6e-a52a-5cfa068cf664";
-      fsType = "btrfs";
-      options = [ "subvol=@gitea" "compress=zstd" "noatime" "space_cache=v2" ];
-    };
-
-  fileSystems."/data/nextcloud" =
-    {
-      device = "/dev/disk/by-uuid/88ca4837-8810-4c6e-a52a-5cfa068cf664";
-      fsType = "btrfs";
-      options = [ "subvol=@nextcloud" "compress=zstd" "noatime" "space_cache=v2" ];
-    };
-
-  fileSystems."/data/vaultwarden" =
-    {
-      device = "/dev/disk/by-uuid/88ca4837-8810-4c6e-a52a-5cfa068cf664";
-      fsType = "btrfs";
-      options = [ "subvol=@vaultwarden" "compress=zstd" "noatime" "space_cache=v2" ];
-    };
-
   swapDevices = [ ];
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";

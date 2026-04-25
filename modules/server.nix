@@ -39,7 +39,6 @@
     enable = true;
     appName = "Junyeong's Gitea";
     database.type = "sqlite3";
-    customDir = "/data/gitea";
     settings = {
       server = {
         DOMAIN = "gitea.local";
@@ -55,7 +54,6 @@
     enable = true;
     package = pkgs.nextcloud33;
     hostName = "nextcloud.local";
-    datadir = "/data/nextcloud";
     database.createLocally = true;
     config = {
       dbtype = "sqlite";
@@ -70,7 +68,6 @@
     enable = true;
     dbBackend = "sqlite";
     config = {
-      DATA_FOLDER = "/data/vaultwarden";
       DOMAIN = "http://vaultwarden.local";
       SIGNUPS_ALLOWED = false;
       ROCKET_PORT = 8222;
@@ -82,6 +79,9 @@
     enable = true;
     port = 9090;
     openFirewall = true;
+    settings.WebService = {
+      Origins = lib.mkForce "https://192.168.0.39:9090 https://localhost:9090";
+    };
   };
 
   # Jellyfin
