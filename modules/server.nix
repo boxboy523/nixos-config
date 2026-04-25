@@ -106,6 +106,10 @@
     openFirewall = true;
   };
 
+   environment.systemPackages = with pkgs; [
+     eza
+  ];
+
   # 미디어 디렉토리
   systemd.tmpfiles.rules = [
     "d /media/anime 0775 jellyfin jellyfin -"
