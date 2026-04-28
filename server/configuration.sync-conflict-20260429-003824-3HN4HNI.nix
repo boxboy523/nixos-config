@@ -14,14 +14,11 @@
     gfxmodeEfi = "2560x1600";
   };
 
+  networking.defaultGateway = "192.168.0.1";
   hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
   };
-
-  networking.defaultGateway = "192.168.0.1";
-  networking.nameservers = [ "1.1.1.1" "8.8.8.8" ];
-
   services.blueman.enable = true;
   services.libinput.enable = true;
   services.libinput.touchpad = {

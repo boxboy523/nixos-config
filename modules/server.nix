@@ -20,6 +20,10 @@
     9090      # Cockpit
   ];
 
+  networking.firewall.allowedUDPPorts = [
+    41641      # Tailscale
+  ];
+
   # Headscale (VPN 컨트롤 서버)
   services.headscale = {
     enable = true;
