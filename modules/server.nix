@@ -28,7 +28,7 @@
   services.headscale = {
     enable = true;
     address = "0.0.0.0";
-    port = 8080;
+    port = 3523;
     settings = {
       server_url = "http://june0.kim:3523";
       dns = {
