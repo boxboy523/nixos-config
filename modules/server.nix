@@ -13,7 +13,7 @@
   networking.firewall.allowedTCPPorts = [
     80 443    # HTTP/HTTPS
     3000      # Gitea
-    8080      # Headscale
+    3523      # Headscale
     8222      # Vaultwarden
     8096      # Jellyfin
     8888      # qBittorrent
@@ -26,7 +26,7 @@
     address = "0.0.0.0";
     port = 8080;
     settings = {
-      server_url = "http://localhost:8080";
+      server_url = "http://june0.kim:3523";
       dns = {
         magic_dns = false;
         nameservers.global = [ "1.1.1.1" "8.8.8.8" ];
