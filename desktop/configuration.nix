@@ -21,6 +21,7 @@
   ];
 
   networking.hostName = "desktop"; # Define your hostname.
+  networking.interfaces.enp8s0.wakeOnLan.enable = true;
 
   programs.fuse.userAllowOther = true;
 
