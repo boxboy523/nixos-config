@@ -24,9 +24,9 @@
 
   programs.fuse.userAllowOther = true;
 
-
   fileSystems = {
     "/storage" = {
+      depends = [ "/mnt/ssd1" "/mnt/ssd2" ];
       fsType = "fuse.mergerfs";
       device = "/mnt/ssd1:/mnt/ssd2";
       options = [
@@ -108,6 +108,7 @@
         -- \
         ${pkgs.steam}/bin/steam -tenfoot -gamepadui
     '')
+    pkgs.mergerfs
   ];
 
   services.xserver.videoDrivers = [ "nvidia" ];

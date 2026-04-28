@@ -38,6 +38,7 @@
           ./modules/core.nix
           ./modules/game.nix
           ./modules/docker.nix
+          ./modules/user.nix
           {
             nixpkgs.config.allowUnfree = true;
           }
@@ -72,7 +73,7 @@
           ./modules/core.nix
           ./modules/game.nix
           ./modules/docker.nix
-          ./modules/desktop.nix
+          ./modules/user.nix
           nixos-hardware.nixosModules.common-cpu-amd
           nixos-hardware.nixosModules.common-cpu-amd-pstate
           nixos-hardware.nixosModules.common-gpu-amd

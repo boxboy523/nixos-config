@@ -80,7 +80,6 @@
   users.users.junyeong.extraGroups = [ "uinput" ];
 
   environment.systemPackages = with pkgs; [
-    mergerfs
     keyd
     qemu
     libvterm
