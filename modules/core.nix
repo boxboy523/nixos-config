@@ -21,7 +21,8 @@
       LC_NAME = "ko_KR.UTF-8";
       LC_NUMERIC = "ko_KR.UTF-8";
       LC_PAPER = "ko_KR.UTF-8";
-      LC_TELEPHONE = "ko_KR.UTF-8";
+      LC_TELEPHONE = "ko_K:q
+:qR.UTF-8";
       LC_TIME = "ko_KR.UTF-8";
     };
   };
@@ -59,6 +60,7 @@
     unrar
     p7zip
     git
+    tailscale
   ];
 
   services.openssh.enable = true;
