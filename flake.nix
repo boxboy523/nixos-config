@@ -82,6 +82,14 @@
           {
             nixpkgs.config.allowUnfree = true;
           }
+          { nixpkgs.overlays = [
+              (final: prev: {
+                openldap = prev.openldap.overrideAttrs (old: {
+                  doCheck = false;
+                });
+              })
+            ];
+          }
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
