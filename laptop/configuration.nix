@@ -19,6 +19,9 @@
     powerOnBoot = true;
   };
   services.blueman.enable = true;
+  systemd.user.services.blueman-applet = {
+    serviceConfig.ExecStart = lib.mkForce [ "" "${pkgs.blueman}/bin/blueman-applet" ];
+  };
   services.libinput.enable = true;
   services.libinput.touchpad = {
     naturalScrolling = true;

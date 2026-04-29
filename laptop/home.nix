@@ -2,10 +2,10 @@
 {
   imports = [ ../modules/home/default.nix ../modules/home/hypr.nix ];
   home.sessionVariables = {
-    PWA_GEMINI = "01KHP43TQ5WM8Z21H4YT2WPPJ4";
+    PWA_GEMINI = "01KQ926QN1Q41A7FDN1GYNHHJT";
     PWA_YOUTUBE = "01KHP46TV04EJSANPR2EV14Z0C";
     PWA_NAMUWIKI = "01KHP45YZ0D4G462F3VCA5FBRQ";
-    PWA_CLAUDE = "01KNR4K7GWZC64YXPHYZ6MXGSG";
+    PWA_CLAUDE = "01KQ925WEP12E82TBDFZFQRTG5";
   };
 
   home.packages = with pkgs; [
@@ -16,7 +16,6 @@
 
     # 2. 시스템 트레이 도구 (Waybar 우측 상단용)
     networkmanagerapplet  # 와이파이 아이콘 (nm-applet)
-    blueman               # 블루투스 관리자 (blueman-applet)
     pasystray             # 볼륨 조절 트레이 (선택사항)
 
     # 3. 전력 모니터링

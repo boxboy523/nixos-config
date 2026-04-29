@@ -84,7 +84,7 @@
     port = 9090;
     openFirewall = true;
     settings.WebService = {
-      Origins = lib.mkForce "https://192.168.0.39:9090 https://localhost:9090";
+      Origins = lib.mkForce "https://192.168.0.39:9090 https://localhost:9090 https://server:9090";
     };
   };
 
